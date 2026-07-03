@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://sahaj33.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linktr.ee/sahaj33"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" /></a>
-  <a href="https://github.com/Sahaj33-op?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/sizwinz?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 </div>
@@ -144,7 +144,7 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 ---
 
 <p align="center">
-  <a href="https://github.com/Sahaj33-op?tab=repositories">
+  <a href="https://github.com/sizwinz?tab=repositories">
     <img src="https://img.shields.io/badge/View%20All%20Repositories-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
@@ -156,17 +156,17 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 <table>
 <tr>
 <td align="center">
-<img src="https://readme-stats-seven-rust.vercel.app/api?username=Sahaj33-op&theme=transparent&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" width="100%" />
+<img src="https://readme-stats-seven-rust.vercel.app/api?username=sizwinz&theme=transparent&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" width="100%" />
 </td>
 <td align="center">
-<img src="https://readme-stats-seven-rust.vercel.app/api/top-langs/?username=Sahaj33-op&layout=compact&theme=transparent&hide_border=true" width="100%" />
+<img src="https://readme-stats-seven-rust.vercel.app/api/top-langs/?username=sizwinz&layout=compact&theme=transparent&hide_border=true" width="100%" />
 </td>
 </tr>
 </table>
 
 <table>
 <td align="center">
-<img src="https://sahaj33-readme-streak-stats.vercel.app/?user=Sahaj33-op&theme=transparent&hide_border=true" width="100%" />
+<img src="https://sahaj33-readme-streak-stats.vercel.app/?user=sizwinz&theme=transparent&hide_border=true" width="100%" />
 </td>
 </table>
 </div>
@@ -174,13 +174,13 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 ---
 
 <div align="center">
-  <img src="https://github-profile-trophy-sahaj33.vercel.app/?username=Sahaj33-op&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" />
+  <img src="https://github-profile-trophy-sahaj33.vercel.app/?username=sizwinz&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" />
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sahaj33-op&theme=github-compact&hide_border=true&area=true" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sizwinz&theme=github-compact&hide_border=true&area=true" width="95%" />
 </div>
 
 ---
@@ -197,7 +197,7 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 <a href="https://www.linktr.ee/sahaj33">
   <img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" />
 </a>
-<a href="https://github.com/Sahaj33-op">
+<a href="https://github.com/sizwinz">
   <img src="https://img.shields.io/badge/GitHub-Sahaj33--op-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
