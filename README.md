@@ -1,65 +1,51 @@
+<!-- Header Banner -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%20there,%20I'm%20Sahaj%20.&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=~∞&descAlignY=55&descSize=18" />
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&lines=Computer+Engineering+Student;Building+Practical+AI+%26+Automation+Tools;Creator+of+PocketMC+%26+MSM;Python+%7C+TypeScript+%7C+C%23;Open+Source+Builder" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://sahaj33.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linktr.ee/sahaj33"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" /></a>
-  <a href="https://github.com/sizwinz?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=200&section=header&text=Sahaj%20Italiya&fontSize=48&fontColor=f8fafc&animation=twinkling&fontAlignY=35&desc=Building%20local-first%20tools%20%7C%20AI%20systems%20%7C%20Minecraft%20infra&descSize=16&descAlignY=55"/>
 </div>
 
+<!-- Typing Intro -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2800&pause=800&color=38bdf8&center=true&vCenter=true&width=700&lines=Computer+Engineering+Student+%40+SSASIT;Product+Builder+%7C+Open+Source+Maintainer;TypeScript+%C2%B7+Python+%C2%B7+C%23+%7C+AI+%2B+Desktop+%2B+Systems;Shipping+useful+software%2C+not+just+impressive+demos" alt="Typing SVG" />
+</p>
+
+<!-- Social / Contact Badges -->
+<p align="center">
+  <a href="https://sahaj33.me" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a" />
+  </a>
+  <a href="https://github.com/sizwinz?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/30+Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linktr.ee/sahaj33" target="_blank">
+    <img src="https://img.shields.io/badge/Linktree-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
+  </a>
+  <a href="mailto:sahajitaliya33@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
 ---
 
-## About Me
+## About
 
 ```yaml
-name: Sahaj Italiya
-alias: SizWinz
-location: India
-role: Computer Engineering Student & Product Builder
-education: Computer Engineering @ SSASIT
+username: SizWinz
+description:
+  I build local-first, privacy-focused developer tools that bridge the gap 
+  between "it works on my machine" and "it actually ships reliably".
 
 focus:
-  - AI-powered tools
-  - Automation systems
-  - Developer utilities
-  - Local-first desktop apps
-  - Minecraft server management
-  - Open-source products
+  - "AI-assisted developer workflows using local LLMs, RAG pipelines, and context-aware automation"
+  - "Desktop systems work with WPF/.NET 8 and Tauri for clean cross-platform experiences"
+  - "Game server infrastructure — full Minecraft server lifecycle management across Windows and Termux/Linux"
 
-building:
-  - PocketMC      → Local-first Windows app for Minecraft server management
-  - MSM           → Mobile-first Minecraft Server Manager for Android / Termux
-  - ReleaseWave   → AI-powered changelog generator from real git diffs
-  - GitFetch      → GitHub profile extractor and developer metrics visualizer
-  - StudySage     → AI note assistant with OCR, summaries, quizzes and PDF export
-  - SkillWise     → Resume-to-roadmap AI learning path generator
-  - TintWin       → Windows folder icon customization app
-  - ServerPulse   → Discord analytics bot with AI-powered summaries
+philosophy:
+  Build useful things, not just impressive demos. 
+  Prefer practical tools over hype. 
+  Make software beginner-friendly, but not toy-grade.
 
-currently_learning:
-  - System design
-  - RAG pipelines
-  - Desktop app architecture
-  - Better product engineering
-  - AI-assisted developer tooling
-
-principles:
-  - Build useful things, not just impressive demos
-  - Prefer practical tools over hype
-  - Make software beginner-friendly, but not toy-grade
-  - Keep improving through feedback loops
-
-fun_fact: "I built Minecraft server managers for both Android Termux and Windows, because apparently one platform was not enough chaos."
+style: "Systems programming × Practical AI × Polished desktop apps"
 ```
-
----
 
 ---
 
@@ -142,33 +128,88 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 </table>
 
 ---
+## 🚀 Featured Work
 
-<p align="center">
-  <a href="https://github.com/sizwinz?tab=repositories">
-    <img src="https://img.shields.io/badge/View%20All%20Repositories-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/PocketMC/pocket-mc-windows">PocketMC</a></h3>
+      <p><img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" /> <img src="https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white" /></p>
+      <p>A local-first Windows desktop app for managing Minecraft Java & Bedrock servers. Handles JRE provisioning, Playit.gg tunneling, mod marketplace integration, cloud backups, and a remote web dashboard.</p>
+      <p><b>17 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">MSM</a></h3>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></p>
+      <p>Terminal-native Minecraft server manager for Termux and Linux. Multi-server, persistent SQLite tracking, crash protection, auto-restart, and zero-GUI workflow.</p>
+      <p><b>24 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">StudySage</a></h3>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /></p>
+      <p>Privacy-first AI study assistant. Offline Seq2Seq summarization, OCR with OpenCV preprocessing, MCQ generation, and executive PDF export. Five interfaces: React SPA, Streamlit, Desktop GUI, Telegram, and CLI.</p>
+      <p><b>8 ★</b> · Offline-capable · Multi-modal · 5 UIs in 1 codebase</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sizwinz/SkillWise">SkillWise</a></h3>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" /></p>
+      <p>Career transition intelligence engine. Ingests resumes, detects skill gaps via LLM analysis, and generates interactive 6-month learning roadmaps with Gantt timelines and milestone tracking.</p>
+      <p><b>5 ★</b> · Multi-provider LLM · Zero-shot gap analysis · Dynamic Plotly viz</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sizwinz/GitFetch">GitFetch</a></h3>
+      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /></p>
+      <p>Developer profile intelligence platform. Turns any GitHub username into a visual dashboard, structured Markdown export, and AI-ready portfolio context for tools like ChatGPT, Claude, and v0.</p>
+      <p><b>2 ★</b> · AI assistant proxy · Glassmorphism UI · Portfolio-ready exports</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sizwinz/ServerPulse">ServerPulse</a></h3>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /></p>
+      <p>Real-time Discord analytics bot with AI-generated "Pulse Reports." Tracks engagement, detects raid patterns, and delivers multi-provider LLM summaries (Gemini, OpenAI, Grok, OpenRouter).</p>
+      <p><b>3 ★</b> · Docker-first · Redis-cached leaderboards · Anomaly detection</p>
+    </td>
+  </tr>
+</table>
+
+<details>
+<summary><b>🗂️ More Projects & Experiments</b></summary>
+<br>
+
+| Project | Stack | Description |
+|---|---|---|
+| [ReleaseWave](https://github.com/sizwinz/releasewave) | Python · PyPI | Agentic changelog generator that reads real git diffs, smart-chunks them, and outputs developer / user / tweet formats |
+| [YtOP](https://github.com/sizwinz/YtOP) | Python · JS · Tampermonkey | YouTube enhancement suite bridging a userscript overlay with a multi-threaded Python download bridge |
+| [Hypixel SkyBlock Extractor](https://github.com/sizwinz/Hypixel-SkyBlock-Profile-Extractor) | Python · Streamlit | Secure Hypixel API v2 data extraction for AI-powered game analytics |
+| [Campus Assistant](https://github.com/DS-labs-op/campus-assistant) | Python · FastAPI · Next.js | Multilingual RAG chatbot for educational institutions (7+ Indian languages) |
+| [Mighty Fines](https://github.com/sizwinz/mighty-fines) | Next.js · Stripe · Twilio | Conversion-focused membership platform with tiered Stripe subscriptions and lifecycle SMS |
+| [SaaS Inspector](https://github.com/sizwinz/SaaS-Inspector) | TypeScript | Evidence-backed micro-SaaS idea validation engine |
+
+</details>
 
 ---
 
 <div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://readme-stats-seven-rust.vercel.app/api?username=sizwinz&theme=transparent&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" width="100%" />
-</td>
-<td align="center">
-<img src="https://readme-stats-seven-rust.vercel.app/api/top-langs/?username=sizwinz&layout=compact&theme=transparent&hide_border=true" width="100%" />
-</td>
-</tr>
-</table>
-
-<table>
-<td align="center">
-<img src="https://sahaj33-readme-streak-stats.vercel.app/?user=sizwinz&theme=transparent&hide_border=true" width="100%" />
-</td>
-</table>
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://readme-stats-seven-rust.vercel.app/api?username=sizwinz&theme=transparent&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&text_color=334155&icon_color=0ea5e9" width="100%" />
+      </td>
+      <td width="50%">
+        <img src="https://readme-stats-seven-rust.vercel.app/api/top-langs/?username=sizwinz&layout=compact&theme=transparent&hide_border=true&text_color=334155" width="100%" />
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>
+        <img src="https://sahaj33-readme-streak-stats.vercel.app/?user=sizwinz&theme=transparent&hide_border=true&stroke=334155&ring=0ea5e9&fire=f59e0b&currStreakNum=334155&sideNums=334155&currStreakLabel=334155&sideLabels=334155&dates=94a3b8" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -185,23 +226,18 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 
 ---
 
----
-
 ## Contact Me
 
 <div align="center">
 
-<a href="https://sahaj33.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="https://www.linktr.ee/sahaj33">
-  <img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" />
-</a>
-<a href="https://github.com/sizwinz">
-  <img src="https://img.shields.io/badge/GitHub-Sahaj33--op-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+  <a href="https://sahaj33.me">
+    <img src="https://img.shields.io/badge/Website-sahaj33.me-0f172a?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linktr.ee/sahaj33">
+    <img src="https://img.shields.io/badge/Linktree-sahaj33-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
+  </a>
 
-<br /><br />
+<br><br>
 
 [![Discord Presence](https://discord-rp-for-github.vercel.app/api/775329619259162654?idleMessage=Hey%2C%20wsp!%20I'm%20Sahaj%20AKA%20SizWinz.%20If%20I'm%20doing%20something%20you%20then%20you%20will%20get%20to%20see%20it%20here.&showDisplayName=true)](https://discord.com/users/775329619259162654)
 
@@ -209,33 +245,14 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 
 ---
 
----
-
 ## Quotes I Live By
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://quotes-github-readme.vercel.app/api?quote=Are+you+doing+things+right+now+that+will+make+your+8+year+old+and+80+year+old+self+proud?&author=Varun+Mayya&border=true&theme=github&type=horizontal" width="600" />
-</td>
-<td align="center">
-<img src="https://quotes-github-readme.vercel.app/api?quote=Give+people+wonderful+tools+and+they'll+do+wonderful+things.&border=true&theme=github&author=Apple&type=horizontal" width="600" />
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<img src="https://quotes-github-readme.vercel.app/api?quote=Ever+tried%3F+Ever+failed%3F+No+matter.+Try+again.+Fail+again.+Fail+better.&author=Samuel+Beckett&border=true&theme=github&type=vertical" width="350" />
-</td>
-<td align="center">
-<img src="https://quotes-github-readme.vercel.app/api?quote=I+think+it's+very+important+to+have+a+feedback+loop,+where+you're+constantly+thinking+about+what+you've+done+and+how+you+could+be+doing+it+better.&border=true&author=Elon+Musk&theme=github&type=vertical" width="350" />
-</td>
-</tr>
-</table>
-
-</div>
+| Quote | Author |
+|-------|--------|
+| Are you doing things right now that will make your 8 year old and 80 year old self proud? | Varun Mayya |
+| Give people wonderful tools and they'll do wonderful things. | Apple |
+| Ever tried? Ever failed? No matter. Try again. Fail again. Fail better. | Samuel Beckett |
+| I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. | Elon Musk |
 
 ---
 
@@ -244,5 +261,5 @@ fun_fact: "I built Minecraft server managers for both Android Termux and Windows
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=120&section=footer&text=~%20∞&fontSize=24&fontColor=94a3b8&animation=twinkling"/>
 </div>
