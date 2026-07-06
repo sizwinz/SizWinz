@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a" />
   </a>
   <a href="https://github.com/sizwinz?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/30+Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/28+Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://www.linktr.ee/sahaj33" target="_blank">
     <img src="https://img.shields.io/badge/Linktree-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
@@ -22,6 +22,10 @@
   <a href="mailto:sahajitaliya33@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://wakatime.com/@sizwinz"><img src="https://wakatime.com/badge/user/fe80941d-298e-4c09-8cf9-8e0a728fd70e.svg" alt="Total time coded since Jul 6 2026" /></a>
 </p>
 
 ---
@@ -191,6 +195,10 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 </details>
 
 ---
+
+<p align="center">
+  <img width="45%" src="https://gh-window.vercel.app/api/sizwinz?theme=dark&accent=10b981" alt="sameerasw's GitHub stats" />
+</p>
 
 <div align="center">
   <table>
