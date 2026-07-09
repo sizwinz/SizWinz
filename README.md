@@ -39,14 +39,14 @@ description:
   between "it works on my machine" and "it actually ships reliably".
 
 focus:
-  - "AI-assisted developer workflows using local LLMs, RAG pipelines, and context-aware automation"
+  - "AI-assisted developer workflows using LLMs, RAG pipelines, and context-aware automation"
   - "Desktop systems work with WPF/.NET 8 and Tauri for clean cross-platform experiences"
-  - "Game server infrastructure — full Minecraft server lifecycle management across Windows and Termux/Linux"
+  - "Game server infrastructure — full Minecraft server lifecycle management across Windows and Termux/Linux/Windows/Mac"
 
 philosophy:
-  Build useful things, not just impressive demos. 
+  Build useful things, not just for impressing. 
   Prefer practical tools over hype. 
-  Make software beginner-friendly, but not toy-grade.
+  Make software beginner-friendly, but production-grade.
 
 style: "Systems programming × Practical AI × Polished desktop apps"
 ```
