@@ -228,12 +228,6 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 
 ---
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sizwinz&theme=github-compact&hide_border=true&area=true" width="95%" />
-</div>
-
----
-
 ## Contact Me
 
 <div align="center">
