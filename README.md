@@ -140,13 +140,13 @@ style: "Systems programming × Practical AI × Polished desktop apps"
       <h3><a href="https://github.com/PocketMC/pocket-mc-windows">PocketMC</a></h3>
       <p><img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" /> <img src="https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white" /></p>
       <p>A local-first Windows desktop app for managing Minecraft Java & Bedrock servers. Handles JRE provisioning, Playit.gg tunneling, mod marketplace integration, cloud backups, and a remote web dashboard.</p>
-      <p><b>17 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
+      <p><b>22 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">MSM</a></h3>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></p>
       <p>Terminal-native Minecraft server manager for Termux and Linux. Multi-server, persistent SQLite tracking, crash protection, auto-restart, and zero-GUI workflow.</p>
-      <p><b>24 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
+      <p><b>28 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
     </td>
   </tr>
   <tr>
@@ -154,7 +154,7 @@ style: "Systems programming × Practical AI × Polished desktop apps"
       <h3><a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">StudySage</a></h3>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /></p>
       <p>Privacy-first AI study assistant. Offline Seq2Seq summarization, OCR with OpenCV preprocessing, MCQ generation, and executive PDF export. Five interfaces: React SPA, Streamlit, Desktop GUI, Telegram, and CLI.</p>
-      <p><b>8 ★</b> · Offline-capable · Multi-modal · 5 UIs in 1 codebase</p>
+      <p><b>9 ★</b> · Offline-capable · Multi-modal · 5 UIs in 1 codebase</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/sizwinz/SkillWise">SkillWise</a></h3>
