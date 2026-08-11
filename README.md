@@ -197,7 +197,7 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 ---
 
 <div align="center">
-        <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent" width="100%" /
+        <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz" width="100%" /
 </div>
 
 ---
