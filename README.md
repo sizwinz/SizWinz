@@ -196,25 +196,11 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 
 ---
 
-<p align="center">
-  <img width="45%" src="https://gh-window.vercel.app/api/sizwinz?theme=dark&accent=10b981" alt="sameerasw's GitHub stats" />
-</p>
-
 <div align="center">
   <table>
     <tr>
       <td width="50%">
-        <img src="https://readme-stats-seven-rust.vercel.app/api?username=sizwinz&theme=transparent&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&text_color=334155&icon_color=0ea5e9" width="100%" />
-      </td>
-      <td width="50%">
-        <img src="https://readme-stats-seven-rust.vercel.app/api/top-langs/?username=sizwinz&layout=compact&theme=transparent&hide_border=true&text_color=334155" width="100%" />
-      </td>
-    </tr>
-  </table>
-  <table>
-    <tr>
-      <td>
-        <img src="https://sahaj33-readme-streak-stats.vercel.app/?user=sizwinz&theme=transparent&hide_border=true&stroke=334155&ring=0ea5e9&fire=f59e0b&currStreakNum=334155&sideNums=334155&currStreakLabel=334155&sideLabels=334155&dates=94a3b8" width="100%" />
+        <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz" width="100%" />
       </td>
     </tr>
   </table>
