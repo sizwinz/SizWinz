@@ -196,7 +196,7 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 
 ---
 
-![sizwinz Stats](https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent)
+[![sizwinz Stats](https://live-readme-card.vercel.app/api/card?username=sizwinz)](https://github.com/sizwinz)
 
 ---
 
