@@ -219,7 +219,7 @@ style: "Systems programming × Practical AI × Polished desktop apps"
 
 <br><br>
 
-[![Discord Presence](https://discord-rp-for-github.vercel.app/api/775329619259162654?idleMessage=Hey%2C%20wsp!%20I'm%20Sahaj%20AKA%20SizWinz.%20If%20I'm%20doing%20something%20you%20then%20you%20will%20get%20to%20see%20it%20here.&showDisplayName=true)](https://discord.com/users/775329619259162654)
+[![Discord Presence](https://discord-rp-for-github.vercel.app/api/775329619259162654?idleMessage=Hey%2C%20wsp!%20I'm%20Sahaj%20AKA%20SizWinz.%20If%20I'm%20doing%20something%20then%20you%20will%20get%20to%20see%20it%20here.&showDisplayName=true)](https://discord.com/users/775329619259162654)
 
 </div>
 
