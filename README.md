@@ -33,22 +33,33 @@
 ## About
 
 ```yaml
-username: SizWinz
-description:
-  I build local-first, privacy-focused developer tools that bridge the gap 
-  between "it works on my machine" and "it actually ships reliably".
+name: Sahaj Italiya
+alias: SizWinz
 
-focus:
-  - "AI-assisted developer workflows using LLMs, RAG pipelines, and context-aware automation"
-  - "Desktop systems work with WPF/.NET 8 and Tauri for clean cross-platform experiences"
-  - "Game server infrastructure — full Minecraft server lifecycle management across Windows and Termux/Linux/Windows/Mac"
+description:
+  Computer Engineering student, developer, and relentless builder
+  from Surat, India.
+
+  I create practical AI systems, desktop software, and developer
+  tools designed to be useful, accessible, and production-ready.
+
+work:
+  Founder and leader of DS Labs,
+  where ambitious ideas become polished software people can
+  genuinely use.
+
+interests:
+  AI systems · Desktop software · Developer tools · Psychology
+  Entrepreneurship · Design · Gaming · Creative technology
 
 philosophy:
-  Build useful things, not just for impressing. 
-  Prefer practical tools over hype. 
-  Make software beginner-friendly, but production-grade.
+  Build things that matter, not things made only for show.
+  Question assumptions. Create more than you consume.
+  Improve through curiosity, discipline, and consistent effort.
 
-style: "Systems programming × Practical AI × Polished desktop apps"
+long_term:
+  Build products that improve millions of lives and create
+  businesses with real, lasting impact.
 ```
 
 ---
