@@ -30,7 +30,7 @@
 
 ---
 
-![Sahaj Italiya About Section](https://live-readme-card.vercel.app/api/about.svg?theme=transparent)
+![Sahaj Italiya About Section](https://live-readme-card.vercel.app/api/about.svg)
 
 ---
 
