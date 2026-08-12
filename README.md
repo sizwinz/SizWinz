@@ -30,37 +30,7 @@
 
 ---
 
-## About
-
-```yaml
-name: Sahaj Italiya
-alias: SizWinz
-
-description:
-  Computer Engineering student, developer, and relentless builder
-  from Surat, India.
-
-  I create practical AI systems, desktop software, and developer
-  tools designed to be useful, accessible, and production-ready.
-
-work:
-  Founder and leader of DS Labs,
-  where ambitious ideas become polished software people can
-  genuinely use.
-
-interests:
-  AI systems · Desktop software · Developer tools · Psychology
-  Entrepreneurship · Design · Gaming · Creative technology
-
-philosophy:
-  Build things that matter, not things made only for show.
-  Question assumptions. Create more than you consume.
-  Improve through curiosity, discipline, and consistent effort.
-
-long_term:
-  Build products that improve millions of lives and create
-  businesses with real, lasting impact.
-```
+![Sahaj Italiya About Section](https://live-readme-card.vercel.app/api/about.svg?theme=transparent)
 
 ---
 
