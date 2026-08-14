@@ -1,4 +1,4 @@
-<!-- Header Banner -->
+<img width="1648" height="856" alt="image" src="https://github.com/user-attachments/assets/30c04b90-fe9a-4a6d-ac0c-3aabeb4c58bc" /><!-- Header Banner -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=200&section=header&text=Sahaj%20Italiya&fontSize=48&fontColor=f8fafc&animation=twinkling&fontAlignY=35&desc=Building%20local-first%20tools%20%7C%20AI%20systems%20%7C%20Minecraft%20infra&descSize=16&descAlignY=55"/>
 </div>
@@ -177,7 +177,7 @@
 
 ---
 
-
+[![sizwinz Stats](https://live-readme-card.vercel.app/api/card?username=sizwinz)](https://github.com/sizwinz)
 
 ---
 
