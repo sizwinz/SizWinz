@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=200&section=header&text=Sahaj%20Italiya&fontSize=48&fontColor=f8fafc&animation=twinkling&fontAlignY=35&desc=Building%20local-first%20tools%20%7C%20AI%20systems%20%7C%20Minecraft%20infra&descSize=16&descAlignY=55"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=200&section=header&text=Sahaj%20Italiya&fontSize=48&fontColor=f8fafc&animation=twinkling&fontAlignY=35&desc=Building%20local-first%20tools%20%7C%20AI%20systems%20%7C%20Minecraft%20infra&descSize=16&descAlignY=55"/>
 </div>
 
 <!-- Typing Intro -->
@@ -32,7 +33,7 @@
 
 ---
 
-## Tech Stack Ever Used
+## Tech Stack
 
 <table>
   <tr>
@@ -111,6 +112,7 @@
 </table>
 
 ---
+
 ## 🚀 Featured Work
 
 <table>
@@ -125,7 +127,7 @@
       <h3><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">MSM</a></h3>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></p>
       <p>Terminal-native Minecraft server manager for Termux and Linux. Multi-server, persistent SQLite tracking, crash protection, auto-restart, and zero-GUI workflow.</p>
-      <p><b>28 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
+      <p><b>30 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
     </td>
   </tr>
   <tr>
@@ -139,7 +141,7 @@
       <h3><a href="https://github.com/sizwinz/SkillWise">SkillWise</a></h3>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" /></p>
       <p>Career transition intelligence engine. Ingests resumes, detects skill gaps via LLM analysis, and generates interactive 6-month learning roadmaps with Gantt timelines and milestone tracking.</p>
-      <p><b>5 ★</b> · Multi-provider LLM · Zero-shot gap analysis · Dynamic Plotly viz</p>
+      <p><b>6 ★</b> · Multi-provider LLM · Zero-shot gap analysis · Dynamic Plotly viz</p>
     </td>
   </tr>
   <tr>
@@ -165,7 +167,7 @@
 | Project | Stack | Description |
 |---|---|---|
 | [ReleaseWave](https://github.com/sizwinz/releasewave) | Python · PyPI | Agentic changelog generator that reads real git diffs, smart-chunks them, and outputs developer / user / tweet formats |
-| [YtOP](https://github.com/sizwinz/YtOP) | Python · JS · Tampermonkey | YouTube enhancement suite bridging a userscript overlay with a multi-threaded Python download bridge |
+| [YtOP](https://github.com/sizwinz/YtOP) | Python · JS · Tampermonkey | YouTube enhancement suite bridging a Tampermonkey userscript with a multi-threaded Python, yt-dlp, and FFmpeg backend |
 | [Hypixel SkyBlock Extractor](https://github.com/sizwinz/Hypixel-SkyBlock-Profile-Extractor) | Python · Streamlit | Secure Hypixel API v2 data extraction for AI-powered game analytics |
 | [Campus Assistant](https://github.com/DS-labs-op/campus-assistant) | Python · FastAPI · Next.js | Multilingual RAG chatbot for educational institutions (7+ Indian languages) |
 | [Mighty Fines](https://github.com/sizwinz/mighty-fines) | Next.js · Stripe · Twilio | Conversion-focused membership platform with tiered Stripe subscriptions and lifecycle SMS |
@@ -174,11 +176,11 @@
 </details>
 
 ---
-  
+
 <div align="center">
   <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent" />
 </div>
-  
+
 ---
 
 <div align="center">
@@ -210,7 +212,7 @@
 
 | Quote | Author |
 |-------|--------|
-| Are you doing things right now that will make your 8 year old and 80 year old self proud? | Varun Mayya |
+| Are you doing things right now that will make your 8-year-old and 80-year-old self proud? | Varun Mayya |
 | Give people wonderful tools and they'll do wonderful things. | Apple |
 | Ever tried? Ever failed? No matter. Try again. Fail again. Fail better. | Samuel Beckett |
 | I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. | Elon Musk |
