@@ -29,7 +29,10 @@
 
 ---
 
-![Sahaj Italiya About Section](https://live-readme-card.vercel.app/api/about.svg)
+
+<div align="center">
+  <img src="https://live-readme-card.vercel.app/api/about.svg?theme=transparent" />
+</div>
 
 ---
 
