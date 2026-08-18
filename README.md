@@ -174,9 +174,11 @@
 </details>
 
 ---
-
-[![sizwinz Stats](https://live-readme-card.vercel.app/api/card?username=sizwinz)](https://github.com/sizwinz)
-
+  
+<div align="center">
+  <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent" />
+</div>
+  
 ---
 
 <div align="center">
