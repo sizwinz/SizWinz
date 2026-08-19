@@ -181,7 +181,7 @@
 ---
 
 <div align="center">
-  <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent" />
+  <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent&_t=1787168131031" />
 </div>
 
 ---
