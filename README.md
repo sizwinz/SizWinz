@@ -116,7 +116,7 @@
 
 ---
 
-## 🚀 Featured Work
+## Featured Work
 
 <table>
   <tr>
@@ -164,7 +164,7 @@
 </table>
 
 <details>
-<summary><b>🗂️ More Projects & Experiments</b></summary>
+<summary><b> More Projects & Experiments</b></summary>
 <br>
 
 | Project | Stack | Description |
