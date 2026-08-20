@@ -152,13 +152,13 @@
       <h3><a href="https://github.com/sizwinz/GitFetch">GitFetch</a></h3>
       <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /></p>
       <p>Developer profile intelligence platform. Turns any GitHub username into a visual dashboard, structured Markdown export, and AI-ready portfolio context for tools like ChatGPT, Claude, and v0.</p>
-      <p><b>2 ★</b> · AI assistant proxy · Glassmorphism UI · Portfolio-ready exports</p>
+      <p> AI assistant proxy · Glassmorphism UI · Portfolio-ready exports</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/sizwinz/ServerPulse">ServerPulse</a></h3>
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /></p>
       <p>Real-time Discord analytics bot with AI-generated "Pulse Reports." Tracks engagement, detects raid patterns, and delivers multi-provider LLM summaries (Gemini, OpenAI, Grok, OpenRouter).</p>
-      <p><b>3 ★</b> · Docker-first · Redis-cached leaderboards · Anomaly detection</p>
+      <p>Docker-first · Redis-cached leaderboards · Anomaly detection</p>
     </td>
   </tr>
 </table>
