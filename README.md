@@ -124,7 +124,7 @@
       <h3><a href="https://github.com/PocketMC/pocket-mc-windows">PocketMC</a></h3>
       <p><img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" /> <img src="https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white" /></p>
       <p>A local-first Windows desktop app for managing Minecraft Java & Bedrock servers. Handles JRE provisioning, Playit.gg tunneling, mod marketplace integration, cloud backups, and a remote web dashboard.</p>
-      <p><b>22 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
+      <p><b>27 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">MSM</a></h3>
