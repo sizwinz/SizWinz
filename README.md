@@ -117,45 +117,39 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/PocketMC/pocket-mc-windows">PocketMC</a></h3>
-      <p><img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" /> <img src="https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white" /></p>
-      <p>A local-first Windows desktop app for managing Minecraft Java & Bedrock servers. Handles JRE provisioning, Playit.gg tunneling, mod marketplace integration, cloud backups, and a remote web dashboard.</p>
-      <p><b>27 ★</b> · Windows-native · Velopack auto-updates · Job Object process isolation</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/PocketMC/pocket-mc-windows">
+        <img src="assets/project-pocketmc.svg" alt="PocketMC" width="100%" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">MSM</a></h3>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /></p>
-      <p>Terminal-native Minecraft server manager for Termux and Linux. Multi-server, persistent SQLite tracking, crash protection, auto-restart, and zero-GUI workflow.</p>
-      <p><b>30 ★</b> · POSIX-first · WAL-mode SQLite · zip-slip-safe backups</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">
+        <img src="assets/project-msm.svg" alt="MSM" width="100%" />
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">StudySage</a></h3>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /></p>
-      <p>Privacy-first AI study assistant. Offline Seq2Seq summarization, OCR with OpenCV preprocessing, MCQ generation, and executive PDF export. Five interfaces: React SPA, Streamlit, Desktop GUI, Telegram, and CLI.</p>
-      <p><b>9 ★</b> · Offline-capable · Multi-modal · 5 UIs in 1 codebase</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">
+        <img src="assets/project-studysage.svg" alt="StudySage" width="100%" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sizwinz/SkillWise">SkillWise</a></h3>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" /></p>
-      <p>Career transition intelligence engine. Ingests resumes, detects skill gaps via LLM analysis, and generates interactive 6-month learning roadmaps with Gantt timelines and milestone tracking.</p>
-      <p><b>6 ★</b> · Multi-provider LLM · Zero-shot gap analysis · Dynamic Plotly viz</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/sizwinz/SkillWise">
+        <img src="assets/project-skillwise.svg" alt="SkillWise" width="100%" />
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sizwinz/GitFetch">GitFetch</a></h3>
-      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" /></p>
-      <p>Developer profile intelligence platform. Turns any GitHub username into a visual dashboard, structured Markdown export, and AI-ready portfolio context for tools like ChatGPT, Claude, and v0.</p>
-      <p> AI assistant proxy · Glassmorphism UI · Portfolio-ready exports</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/sizwinz/GitFetch">
+        <img src="assets/project-gitfetch.svg" alt="GitFetch" width="100%" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sizwinz/ServerPulse">ServerPulse</a></h3>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /></p>
-      <p>Real-time Discord analytics bot with AI-generated "Pulse Reports." Tracks engagement, detects raid patterns, and delivers multi-provider LLM summaries (Gemini, OpenAI, Grok, OpenRouter).</p>
-      <p>Docker-first · Redis-cached leaderboards · Anomaly detection</p>
+    <td width="50%" align="center">
+      <a href="https://github.com/sizwinz/ServerPulse">
+        <img src="assets/project-serverpulse.svg" alt="ServerPulse" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
