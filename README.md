@@ -33,7 +33,7 @@
 
 ---
 
-## Tech Stack
+## Tech Stack Ever Used
 
 <table>
   <tr>
