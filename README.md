@@ -188,7 +188,7 @@
 
 | Quote | Author |
 |-------|--------|
-| Are you doing things right now that will make your 8-year-old and 80-year-old self proud? | Varun Mayya |
+| Become an expert in one thing and then build multiple income streams out of that one thing. | Raj Shamani |
 | Give people wonderful tools and they'll do wonderful things. | Apple |
 | Ever tried? Ever failed? No matter. Try again. Fail again. Fail better. | Samuel Beckett |
 | I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. | Elon Musk |
