@@ -92,7 +92,7 @@ featured_projects = [
 ]
 
 headers = {"User-Agent": "Mozilla/5.0"}
-github_token = os.environ.get("GITHUB_TOKEN")
+github_token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 if github_token:
     headers["Authorization"] = f"token {github_token}"
 

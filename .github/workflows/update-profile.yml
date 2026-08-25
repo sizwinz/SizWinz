@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate Dynamic SVG Cards
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
         run: |
           python generate_cards.py
 
