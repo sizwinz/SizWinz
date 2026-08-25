@@ -1,6 +1,7 @@
 import os
 import urllib.request
 import json
+import html
 from datetime import datetime, timezone
 
 # -------------------------------------------------------------
@@ -86,7 +87,7 @@ featured_projects = [
         "desc": "Real-time Discord analytics bot with AI-generated Pulse Reports, engagement tracking, and multi-provider LLMs.",
         "tags": [("Python", "#3572A5"), ("MongoDB", "#47A248"), ("Redis", "#DC382D")],
         "highlights": "Docker-first · Redis leaderboards · Anomaly alerts",
-        "stars": 2,
+        "stars": 3,
         "forks": 0
     }
 ]
@@ -108,7 +109,8 @@ for proj in featured_projects:
             proj["stars"] = data.get("stargazers_count", proj["stars"])
             proj["forks"] = data.get("forks_count", proj["forks"])
             if data.get("description") and len(data["description"]) > 10:
-                proj["desc"] = data["description"]
+                clean_desc = data["description"].replace("—", "-").replace("–", "-")
+                proj["desc"] = clean_desc
     except Exception as e:
         print(f"Project fetch notice for {proj['repo']}: {e}")
 
@@ -138,19 +140,22 @@ for p in featured_projects:
     desc_lines = format_desc(p["desc"], max_chars=56)
     desc_tspan = ""
     if len(desc_lines) >= 1:
-        desc_tspan += f'<tspan x="20" y="86">{desc_lines[0]}</tspan>'
+        escaped_line_1 = html.escape(desc_lines[0], quote=True)
+        desc_tspan += f'<tspan x="20" y="86">{escaped_line_1}</tspan>'
     if len(desc_lines) >= 2:
-        desc_tspan += f'<tspan x="20" y="104">{desc_lines[1]}</tspan>'
+        escaped_line_2 = html.escape(desc_lines[1], quote=True)
+        desc_tspan += f'<tspan x="20" y="104">{escaped_line_2}</tspan>'
 
     badges_svg = []
     tag_offset = 0
     for tag_name, tag_col in p.get("tags", []):
         tag_width = max(len(tag_name) * 7.0 + 26, 52)
+        escaped_tag = html.escape(tag_name, quote=True)
         badges_svg.append(f'''
       <g transform="translate({tag_offset:.1f}, 0)">
         <rect width="{tag_width:.1f}" height="21" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
         <circle cx="10" cy="10.5" r="3.5" fill="{tag_col}"/>
-        <text x="18" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#c9d1d9">{tag_name}</text>
+        <text x="18" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#c9d1d9">{escaped_tag}</text>
       </g>''')
         tag_offset += tag_width + 8
     badges_rendered = "".join(badges_svg)
@@ -158,6 +163,8 @@ for p in featured_projects:
     highlights_text = p.get("highlights", "")
     if len(highlights_text) > 52:
         highlights_text = highlights_text[:50] + "..."
+    escaped_highlights = html.escape(highlights_text, quote=True)
+    escaped_title = html.escape(p["name"], quote=True)
 
     forks_svg = ""
     highlights_offset = 50
@@ -194,7 +201,7 @@ for p in featured_projects:
     <svg x="0" y="1" width="16" height="16" viewBox="0 0 16 16" fill="{ACCENT_GREEN}">
       <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0-.75.75v1.25a.75.75 0 0 1-1.28.53L7.47 14.25a.75.75 0 0 0-.53-.22H4.5A2.5 2.5 0 0 1 2 11.5v-9Zm10.5 10V1.5H4.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h2.44a2.25 2.25 0 0 1 1.59.66l1.47 1.47V13.25a2.25 2.25 0 0 1 2-2.22V11H12.5v1.5ZM4.5 12h7a.75.75 0 0 0 .75-.75V11H4.5a1 1 0 0 0-1 1v-.25c.2.16.45.25.75.25Z"/>
     </svg>
-    <text x="24" y="14" class="proj-title">{p["name"]}</text>
+    <text x="24" y="14" class="proj-title">{escaped_title}</text>
   </g>
 
   <!-- Badges Row -->
@@ -223,7 +230,7 @@ for p in featured_projects:
 
     <!-- Highlights -->
     <g transform="translate({highlights_offset}, 0)">
-      <text x="0" y="11" class="highlights-text">· {highlights_text}</text>
+      <text x="0" y="11" class="highlights-text">· {escaped_highlights}</text>
     </g>
   </g>
 </svg>'''
