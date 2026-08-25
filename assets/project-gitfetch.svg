@@ -1,5 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="100%" height="160">
+<<<<<<< HEAD
   <!-- Generated: 2026-08-25 15:14 UTC -->
+=======
+  <!-- Generated: 2026-08-25 15:11 UTC -->
+>>>>>>> c38244544a00a5d49de4cda1aaee7bb5335f5e3a
   <defs>
     <linearGradient id="cardBg_GitFetch" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
