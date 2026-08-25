@@ -5,20 +5,10 @@ import html
 from datetime import datetime, timezone
 
 # -------------------------------------------------------------
-# 1. CONSTANTS & THEME
+# 1. CONSTANTS & SIZING
 # -------------------------------------------------------------
 PROJ_WIDTH = 420
 PROJ_HEIGHT = 160
-
-BG_COLOR = "#0d1117"
-BORDER_COLOR = "#30363d"
-TITLE_COLOR = "#58a6ff"
-LABEL_COLOR = "#8b949e"
-VALUE_COLOR = "#e6edf3"
-PROJ_TEXT_COLOR = "#8b949e"
-ACCENT_GREEN = "#3fb950"
-STAR_GOLD = "#e3b341"
-HIGHLIGHT_COLOR = "#7d8590"
 
 now = datetime.now(timezone.utc)
 timestamp_str = now.strftime("%Y-%m-%d %H:%M UTC")
@@ -117,7 +107,7 @@ for proj in featured_projects:
 os.makedirs("assets", exist_ok=True)
 
 # -------------------------------------------------------------
-# 3. GENERATE FEATURED PROJECT CARDS (6 CARDS)
+# 3. GENERATE FEATURED PROJECT CARDS (6 CARDS WITH THEME ADAPTATION)
 # -------------------------------------------------------------
 def format_desc(text, max_chars=54):
     words = text.split()
@@ -153,9 +143,9 @@ for p in featured_projects:
         escaped_tag = html.escape(tag_name, quote=True)
         badges_svg.append(f'''
       <g transform="translate({tag_offset:.1f}, 0)">
-        <rect width="{tag_width:.1f}" height="21" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <rect width="{tag_width:.1f}" height="21" rx="4" class="pill-rect" stroke-width="1"/>
         <circle cx="10" cy="10.5" r="3.5" fill="{tag_col}"/>
-        <text x="18" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#c9d1d9">{escaped_tag}</text>
+        <text x="18" y="14.5" class="pill-text">{escaped_tag}</text>
       </g>''')
         tag_offset += tag_width + 8
     badges_rendered = "".join(badges_svg)
@@ -172,7 +162,7 @@ for p in featured_projects:
         highlights_offset = 95
         forks_svg = f'''
     <g transform="translate(48, 0)">
-      <svg x="0" y="0" width="14" height="14" viewBox="0 0 16 16" fill="{LABEL_COLOR}">
+      <svg x="0" y="0" width="14" height="14" viewBox="0 0 16 16" class="fork-icon">
         <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5h1.5a2.25 2.25 0 0 0 2.25-2.25v-.878a2.25 2.25 0 1 0-1.5 0v.878a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-.878Zm3.75 7.378a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm3-8.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
       </svg>
       <text x="17" y="11" class="meta-val">{p["forks"]}</text>
@@ -181,24 +171,51 @@ for p in featured_projects:
     proj_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {PROJ_WIDTH} {PROJ_HEIGHT}" width="100%" height="{PROJ_HEIGHT}">
   <!-- Generated: {timestamp_str} -->
   <defs>
-    <linearGradient id="cardBg_{p["name"]}" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="cardBgDark_{p["name"]}" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#121720"/>
+    </linearGradient>
+    <linearGradient id="cardBgLight_{p["name"]}" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fa"/>
     </linearGradient>
   </defs>
 
   <style>
-    .proj-title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; font-size: 15.5px; fill: {TITLE_COLOR}; }}
-    .proj-desc {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; fill: {PROJ_TEXT_COLOR}; line-height: 1.4; }}
-    .meta-val {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; fill: {VALUE_COLOR}; font-weight: 600; }}
-    .highlights-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10.5px; fill: {HIGHLIGHT_COLOR}; }}
+    /* Default / Light Theme */
+    .card-bg {{ fill: url(#cardBgLight_{p["name"]}); stroke: #d0d7de; }}
+    .proj-title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; font-size: 15.5px; fill: #0969da; }}
+    .proj-desc {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; fill: #57606a; line-height: 1.4; }}
+    .meta-val {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; fill: #24292f; font-weight: 600; }}
+    .highlights-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #57606a; }}
+    .pill-rect {{ fill: #f6f8fa; stroke: #d0d7de; }}
+    .pill-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10.5px; font-weight: 600; fill: #24292f; }}
+    .divider-line {{ stroke: #d8dee4; }}
+    .repo-icon {{ fill: #1a7f37; }}
+    .star-icon {{ fill: #bf8700; }}
+    .fork-icon {{ fill: #57606a; }}
+
+    /* GitHub Dark Theme Adaptive */
+    @media (prefers-color-scheme: dark) {{
+      .card-bg {{ fill: url(#cardBgDark_{p["name"]}); stroke: #30363d; }}
+      .proj-title {{ fill: #58a6ff; }}
+      .proj-desc {{ fill: #8b949e; }}
+      .meta-val {{ fill: #e6edf3; }}
+      .highlights-text {{ fill: #7d8590; }}
+      .pill-rect {{ fill: #161b22; stroke: #30363d; }}
+      .pill-text {{ fill: #c9d1d9; }}
+      .divider-line {{ stroke: #21262d; }}
+      .repo-icon {{ fill: #3fb950; }}
+      .star-icon {{ fill: #e3b341; }}
+      .fork-icon {{ fill: #8b949e; }}
+    }}
   </style>
 
-  <rect x="0.5" y="0.5" width="{PROJ_WIDTH - 1}" height="{PROJ_HEIGHT - 1}" rx="8" fill="url(#cardBg_{p["name"]})" stroke="{BORDER_COLOR}" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="{PROJ_WIDTH - 1}" height="{PROJ_HEIGHT - 1}" rx="8" class="card-bg" stroke-width="1"/>
 
   <!-- Title & Repo Book Icon -->
   <g transform="translate(20, 18)">
-    <svg x="0" y="1" width="16" height="16" viewBox="0 0 16 16" fill="{ACCENT_GREEN}">
+    <svg x="0" y="1" width="16" height="16" viewBox="0 0 16 16" class="repo-icon">
       <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0-.75.75v1.25a.75.75 0 0 1-1.28.53L7.47 14.25a.75.75 0 0 0-.53-.22H4.5A2.5 2.5 0 0 1 2 11.5v-9Zm10.5 10V1.5H4.5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h2.44a2.25 2.25 0 0 1 1.59.66l1.47 1.47V13.25a2.25 2.25 0 0 1 2-2.22V11H12.5v1.5ZM4.5 12h7a.75.75 0 0 0 .75-.75V11H4.5a1 1 0 0 0-1 1v-.25c.2.16.45.25.75.25Z"/>
     </svg>
     <text x="24" y="14" class="proj-title">{escaped_title}</text>
@@ -215,13 +232,13 @@ for p in featured_projects:
   </text>
 
   <!-- Divider Line -->
-  <line x1="20" y1="126" x2="{PROJ_WIDTH - 20}" y2="126" stroke="#21262d" stroke-width="1"/>
+  <line x1="20" y1="126" x2="{PROJ_WIDTH - 20}" y2="126" class="divider-line" stroke-width="1"/>
 
   <!-- Footer Row (Stars, Forks, Highlights) -->
   <g transform="translate(20, 137)">
     <!-- Stars -->
     <g transform="translate(0, 0)">
-      <svg x="0" y="0" width="14" height="14" viewBox="0 0 16 16" fill="{STAR_GOLD}">
+      <svg x="0" y="0" width="14" height="14" viewBox="0 0 16 16" class="star-icon">
         <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.74a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.695Z"/>
       </svg>
       <text x="17" y="11" class="meta-val">{p["stars"]}</text>
@@ -239,4 +256,4 @@ for p in featured_projects:
         f.write(proj_svg)
     print(f"Generated {p['filename']}")
 
-print("All 6 Featured Project cards generated successfully!")
+print("All 6 Featured Project cards generated successfully with dual theme support!")
