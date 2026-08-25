@@ -119,36 +119,36 @@
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/PocketMC/pocket-mc-windows">
-        <img src="assets/project-pocketmc.svg" alt="PocketMC" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-pocketmc.svg" alt="PocketMC" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">
-        <img src="assets/project-msm.svg" alt="MSM" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-msm.svg" alt="MSM" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">
-        <img src="assets/project-studysage.svg" alt="StudySage" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-studysage.svg" alt="StudySage" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/sizwinz/SkillWise">
-        <img src="assets/project-skillwise.svg" alt="SkillWise" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-skillwise.svg" alt="SkillWise" width="100%" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/sizwinz/GitFetch">
-        <img src="assets/project-gitfetch.svg" alt="GitFetch" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-gitfetch.svg" alt="GitFetch" width="100%" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/sizwinz/ServerPulse">
-        <img src="assets/project-serverpulse.svg" alt="ServerPulse" width="100%" />
+        <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-serverpulse.svg" alt="ServerPulse" width="100%" />
       </a>
     </td>
   </tr>
