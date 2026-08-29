@@ -192,5 +192,8 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=120&section=footer&text=~%20∞&fontSize=24&fontColor=94a3b8&animation=twinkling"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:1e3a5f&height=120&section=footer&text=~%20%E2%88%9E&fontSize=24&fontColor=7dd3fc&animation=fadeIn"
+    width="100%"
+  />
 </div>
