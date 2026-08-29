@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=200&section=header&text=Sahaj%20Italiya&fontSize=48&fontColor=f8fafc&animation=twinkling&fontAlignY=35&desc=Building%20local-first%20tools%20%7C%20AI%20systems%20%7C%20Minecraft%20infra&descSize=16&descAlignY=55"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:1e3a5f&height=190&section=header&text=Sahaj%20Italiya&fontSize=50&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Building%20useful%20software%20%C2%B7%20AI%20%C2%B7%20Desktop%20%C2%B7%20Systems&descSize=16&descColor=7dd3fc&descAlignY=58"
+    width="100%"
+  />
 </div>
 
 <!-- Typing Intro -->
