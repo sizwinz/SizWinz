@@ -165,18 +165,7 @@
 
 ---
 
-## Contact Me
-
 <div align="center">
-
-  <a href="https://sahaj33.me">
-    <img src="https://img.shields.io/badge/Website-sahaj33.me-0f172a?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://www.linktr.ee/sahaj33">
-    <img src="https://img.shields.io/badge/Linktree-sahaj33-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
-  </a>
-
-<br><br>
 
 [![Discord Presence](https://discord-rp-for-github.vercel.app/api/775329619259162654?idleMessage=Hey%2C%20wsp!%20I'm%20Sahaj%20AKA%20SizWinz.%20If%20I'm%20doing%20something%20then%20you%20will%20get%20to%20see%20it%20here.&showDisplayName=true)](https://discord.com/users/775329619259162654)
 
