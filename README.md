@@ -7,7 +7,7 @@
 
 <!-- Typing Intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2800&pause=800&color=38bdf8&center=true&vCenter=true&width=1000&lines=Computer+Engineering+Student+%40+SSASIT;Exploring+AI%2C+Desktop+%26+Systems+with+TypeScript%2C+Python+%26+C%23" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2800&pause=800&color=38bdf8&center=true&vCenter=true&width=1000&lines=Computer+Engineering+Student+%40+SSASIT;Building+AI%2C+Desktop+%26+Systems+with+TypeScript%2C+Python%2C+C%23%2C+Go+%26+Dart" alt="Typing SVG" />
 </p>
 
 <!-- Social / Contact Badges -->
@@ -145,11 +145,13 @@
 
 | Project | Stack | Description |
 |---|---|---|
-| [ReleaseWave](https://github.com/sizwinz/releasewave) | Python · PyPI | Agentic changelog generator that reads real git diffs, smart-chunks them, and outputs developer / user / tweet formats |
-| [YtOP](https://github.com/sizwinz/YtOP) | Python · JS · Tampermonkey | YouTube enhancement suite bridging a Tampermonkey userscript with a multi-threaded Python, yt-dlp, and FFmpeg backend |
-| [Hypixel SkyBlock Extractor](https://github.com/sizwinz/Hypixel-SkyBlock-Profile-Extractor) | Python · Streamlit | Secure Hypixel API v2 data extraction for AI-powered game analytics |
+| [DiagonalNet](https://github.com/itznan/diagonalnet) | Go · Pure Stdlib | Zero-dependency deep learning engine with 13-channel spatial difference manifold calculus and analytical Jacobian autograd |
+| [SchemeSetu](https://github.com/sizwinz/SchemeSetu) | Next.js · React 19 · Vitest | AI-driven scheme matching and channel finance solvency router for MoSJE affirmative credit |
+| [WatchMark](https://github.com/sizwinz/WatchMark) | Flutter · Dart · SQLite | Local-first, privacy-focused media tracker with timestamp progress and Google Drive sync |
+| [pocket-mc-linux-mac](https://github.com/PocketMC/pocket-mc-linux-mac) | C# · Avalonia UI · .NET 8 | Native cross-platform desktop Minecraft server manager for Linux and macOS |
+| [ReleaseWave](https://github.com/sizwinz/releasewave) | Python · PyPI | Agentic changelog generator that analyzes real git diffs and formats for dev / user / social |
+| [GitFetch](https://github.com/sizwinz/GitFetch) | React 19 · TypeScript · Vite | Developer metrics visualizer and structured markdown exporter for AI context |
 | [Campus Assistant](https://github.com/DS-labs-op/campus-assistant) | Python · FastAPI · Next.js | Multilingual RAG chatbot for educational institutions (7+ Indian languages) |
-| [Mighty Fines](https://github.com/sizwinz/mighty-fines) | Next.js · Stripe · Twilio | Conversion-focused membership platform with tiered Stripe subscriptions and lifecycle SMS |
 | [SaaS Inspector](https://github.com/sizwinz/SaaS-Inspector) | TypeScript | Evidence-backed micro-SaaS idea validation engine |
 
 </details>
