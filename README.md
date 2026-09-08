@@ -29,10 +29,16 @@
 
 ---
 
+## About Me
 
-<div align="center">
-  <img src="https://live-readme-card.vercel.app/api/about.svg?theme=transparent" />
-</div>
+I'm **Sahaj Italiya** (SizWinz), an 18-year-old Computer Engineering student from Gujarat, India. I design and build desktop applications, and developer tools focused on reliability, performance, and clear UX.
+
+Currently co-founding and leading [**DSLabs**](https://ds-labs.vercel.app/), where we build polished, production-grade software prioritizing utility over trends.
+
+* **Focus & Systems:** Practical AI systems, desktop software architecture, and developer tooling.
+* **Interests:** Product design, behavioral psychology, tech entrepreneurship, and creative computing.
+
+* **Mission:** Build resilient, high-impact products that improve millions of lives.
 
 ---
 
