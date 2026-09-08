@@ -13,8 +13,8 @@
 <!-- Social / Contact Badges -->
 <p align="center">
   <a href="https://sahaj33.me" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a" />
-  </a>
+  <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" />
+</a>
   <a href="https://www.linktr.ee/sahaj33" target="_blank">
     <img src="https://img.shields.io/badge/Linktree-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
   </a>
