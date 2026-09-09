@@ -1,14 +1,25 @@
-<div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:1e3a5f&height=190&section=header&text=Sahaj%20Italiya&fontSize=50&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Building%20useful%20software%20%C2%B7%20AI%20%C2%B7%20Desktop%20%C2%B7%20Systems&descSize=16&descColor=7dd3fc&descAlignY=58"
-    width="100%"
-  />
-</div>
+### Hello world! <a href="#"><img src="https://cutt.ly/bejwPyFP" width="16"></a> <a href="#"><img src="https://cutt.ly/AejwPXxy" width="18"/></a>
 
-<!-- Typing Intro -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=20&duration=2800&pause=800&color=38bdf8&center=true&vCenter=true&width=1000&lines=Computer+Engineering+Student+%40+SSASIT;Building+AI%2C+Desktop+%26+Systems+with+TypeScript%2C+Python%2C+C%23%2C+Go+%26+Dart" alt="Typing SVG" />
-</p>
+I’m **Sahaj Italiya**, also known as **SizWinz**, a Computer Engineering student from Gujarat, India. I build polished desktop applications, developer tools, and practical AI systems focused on reliability, performance, privacy, and clear UX.
+
+## These days I’m focused on
+
+- Building practical, production-oriented software through **DS Labs**
+- Developing **PocketMC**, a Windows-native Minecraft server manager
+- Creating privacy-friendly, local-first apps.
+- Exploring agentic coding workflows, local LLMs, and useful AI integrations
+- Growing as an open-source developer, product builder, and technical leader
+
+## A bit more about me
+
+-  Computer Engineering student, graduating in **2029**
+-  Interested in desktop architecture, developer tooling, practical AI, and product design
+-  Strong believer in privacy, local-first software, and optional cloud connectivity
+-  I prefer solving real user problems over chasing trends
+-  Currently improving my skills in system design, UI/UX, open-source leadership, and entrepreneurship
+-  Long-term mission: build resilient products that positively impact millions of people
+
+When I’m not coding, you’ll probably find me exploring tech hardware, psychology, philosophy, Minecraft, Valorant, or Video editing.
 
 <!-- Social / Contact Badges -->
 <p align="center">
@@ -26,19 +37,6 @@
 <p align="center">
   <a href="https://wakatime.com/@sizwinz"><img src="https://wakatime.com/badge/user/fe80941d-298e-4c09-8cf9-8e0a728fd70e.svg" alt="Total time coded since Jul 6 2026" /></a>
 </p>
-
----
-
-## About Me
-
-I'm **Sahaj Italiya** (SizWinz), an 18-year-old Computer Engineering student from Gujarat, India. I design and build desktop applications, and developer tools focused on reliability, performance, and clear UX.
-
-Currently co-founding and leading [**DSLabs**](https://ds-labs.vercel.app/), where we build polished, production-grade software prioritizing utility over trends.
-
-* **Focus & Systems:** Practical AI systems, desktop software architecture, and developer tooling.
-* **Interests:** Product design, behavioral psychology, tech entrepreneurship, and creative computing.
-
-* **Mission:** Build resilient, high-impact products that improve millions of lives.
 
 ---
 
