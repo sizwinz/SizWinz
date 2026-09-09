@@ -21,20 +21,12 @@ I’m **Sahaj Italiya**, also known as **SizWinz**, a Computer Engineering stude
 
 When I’m not coding, you’ll probably find me exploring tech hardware, psychology, philosophy, Minecraft, Valorant, or Video editing.
 
-<!-- Social / Contact Badges -->
-<p align="center">
-  <a href="https://sahaj33.me" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" />
-</a>
-  <a href="https://www.linktr.ee/sahaj33" target="_blank">
-    <img src="https://img.shields.io/badge/Linktree-10b981?style=for-the-badge&logo=linktree&logoColor=white" />
-  </a>
-  <a href="mailto:sahajitaliya33@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+---
 
 <p align="center">
+  <a href="https://sahaj33.me" target="_blank">
+  <img src="https://img.shields.io/badge/Sahaj33.me-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" />
+</a><br>
   <a href="https://wakatime.com/@sizwinz"><img src="https://wakatime.com/badge/user/fe80941d-298e-4c09-8cf9-8e0a728fd70e.svg" alt="Total time coded since Jul 6 2026" /></a>
 </p>
 
