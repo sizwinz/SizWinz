@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="100%" height="160">
-  <!-- Generated: 2026-09-10 15:22 UTC -->
+  <!-- Generated: 2026-09-11 01:49 UTC -->
   <defs>
     <linearGradient id="cardBgDark_StudySage" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
@@ -93,7 +93,7 @@
       <svg x="0" y="0" width="14" height="14" viewBox="0 0 16 16" class="fork-icon">
         <path d="M5 3.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm0 2.122a2.25 2.25 0 1 0-1.5 0v.878A2.25 2.25 0 0 0 5.75 8.5h1.5v2.128a2.251 2.251 0 1 0 1.5 0V8.5h1.5a2.25 2.25 0 0 0 2.25-2.25v-.878a2.25 2.25 0 1 0-1.5 0v.878a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-.878Zm3.75 7.378a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm3-8.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
       </svg>
-      <text x="17" y="11" class="meta-val">1</text>
+      <text x="17" y="11" class="meta-val">2</text>
     </g>
 
     <!-- Highlights -->
