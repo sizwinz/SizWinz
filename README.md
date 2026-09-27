@@ -191,7 +191,8 @@ When I’m not coding, you’ll probably find me exploring tech hardware, psycho
 ---
 
 <div align="center">
-  <img src="https://u8views.com/api/v1/github/profiles/211491959/views/day-week-month-total-count.svg" />
+  <img src="https://u8views.com/api/v1/github/profiles/211491959/views/day-week-month-total-count.svg" /> <br>
+  <img src="https://moecount.lolihouse.top/get/@:sizwinz" />
 </div>
 
 <div align="center">
