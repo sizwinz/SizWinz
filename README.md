@@ -172,9 +172,13 @@ When I’m not coding, you’ll probably find me exploring tech hardware, psycho
 ---
 
 <div align="center">
-
-[![Discord Presence](https://discord-rp-for-github.vercel.app/api/775329619259162654?idleMessage=Hey%2C%20wsp!%20I'm%20Sahaj%20AKA%20SizWinz.%20If%20I'm%20doing%20something%20then%20you%20will%20get%20to%20see%20it%20here.&showDisplayName=true)](https://discord.com/users/775329619259162654)
-
+<a href="https://discord.com/users/775329619259162654">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=light">
+    <img src="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=light" alt="Discord Presence">
+  </picture>
+</a>
 </div>
 
 ---
