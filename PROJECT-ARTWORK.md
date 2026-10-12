@@ -36,8 +36,9 @@ python scripts/build_cards.py
 python scripts/make_readme.py
 ```
 
-Thumbnail encoding requires Pillow. It leaves original PNGs untouched and caches
-input hashes to avoid changing delivery files across platform encoder versions.
+Project cards embed the original full-resolution PNGs without JPEG compression
+or thumbnail resizing. The `-hq` card filenames avoid cached lower-quality artwork.
+Thumbnail encoding for other uses requires Pillow and leaves original PNGs untouched.
 Each linked tile contains only the card subtrees visible in its crop, keeping
 bitmap payloads small. Compact text cards retain their original centered text.
 The stats panel and automatic metrics workflow continue to use the same data.

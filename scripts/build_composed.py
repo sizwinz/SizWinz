@@ -56,7 +56,9 @@ def project_cover(raw: str, name: str) -> str:
     slug = PROJECT_ART.get(name.split('/')[-1])
     if not slug:
         return raw
-    path = DEST / 'project-art' / 'web' / f'{slug}.jpg'
+    # Preserve fine logo edges and UI detail from the full-resolution artwork.
+    # Delivery JPEG thumbnails introduce avoidable resize/compression loss.
+    path = DEST / 'project-art' / f'{slug}.png'
     if not path.exists():
         raise FileNotFoundError(f'Missing project cover: {path}')
     root = ET.fromstring(f'<svg xmlns="{XML_NS}">{raw}</svg>')

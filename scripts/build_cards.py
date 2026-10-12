@@ -10,6 +10,8 @@ from xml.etree import ElementTree as ET
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
+HIGH_RES_CARDS = {'pocketmc', 'msm', 'studysage', 'gitfetch', 'skillwise',
+                  'serverpulse', 'schemesetu', 'ecospot'}
 CARDS = {'main': [('pocketmc', 'PocketMC', 'https://github.com/PocketMC/pocket-mc-windows', 0, 0, 248, 350),
           ('msm',
            'MSM',
@@ -124,7 +126,8 @@ def main():
                        f'height="{height * 2}" viewBox="{x} {y} {width} {height}" overflow="hidden">'
                        f'<title>{escape(title)}</title>{inner}</svg>')
                 ET.fromstring(svg)
-                (ROOT / "assets" / f"card-{slug}-{theme}.svg").write_text(svg, encoding="utf-8")
+                suffix = '-hq' if slug in HIGH_RES_CARDS else ''
+                (ROOT / "assets" / f"card-{slug}{suffix}-{theme}.svg").write_text(svg, encoding="utf-8")
 
 if __name__ == "__main__":
     main()
