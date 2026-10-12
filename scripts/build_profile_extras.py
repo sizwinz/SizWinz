@@ -78,7 +78,7 @@ def footer_button(slug, label, theme):
 
 def main():
     for theme in ('dark', 'light'):
-        (ROOT / f'assets/tech-stack-{theme}.svg').write_text(stack_panel(theme), encoding='utf-8')
+        (ROOT / f'assets/tech-stack-grid-{theme}.svg').write_text(stack_panel(theme), encoding='utf-8')
         for slug, label in [('website', 'sahaj33.me'), ('pocketmc', 'PocketMC'), ('dslabs', 'DS Labs')]:
             (ROOT / f'assets/link-{slug}-{theme}.svg').write_text(footer_button(slug, label, theme), encoding='utf-8')
 
