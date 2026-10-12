@@ -76,9 +76,19 @@ def footer_button(slug, label, theme):
     return document(body, 176, 56, label)
 
 
+def coffee_icon(theme):
+    _, _, ink, _, accent, _ = palette(theme)
+    body = (f'<g fill="none" stroke="{ink}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+            '<path d="M11 14H31L29 37H13Z"/><path d="M9 10H33V14H9Z"/>'
+            '<path d="M14 6H28M17 20H26M15 32H28"/></g>'
+            f'<path d="M21 30L16 25C12 21 18 18 21 22C24 18 30 21 26 25Z" fill="{accent}"/>')
+    return document(body, 44, 44, 'Buy Me a Coffee')
+
+
 def main():
     for theme in ('dark', 'light'):
         (ROOT / f'assets/tech-stack-grid-{theme}.svg').write_text(stack_panel(theme), encoding='utf-8')
+        (ROOT / f'assets/social-coffee-{theme}.svg').write_text(coffee_icon(theme), encoding='utf-8')
         for slug, label in [('website', 'sahaj33.me'), ('pocketmc', 'PocketMC'), ('dslabs', 'DS Labs')]:
             (ROOT / f'assets/link-{slug}-{theme}.svg').write_text(footer_button(slug, label, theme), encoding='utf-8')
 

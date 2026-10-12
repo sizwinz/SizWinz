@@ -74,6 +74,7 @@ Regenerate README: python scripts/make_readme.py
 
 <p align="center">
   <a href="https://discord.com/users/775329619259162654" title="Discord"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-discord-dark.png" /><img src="./assets/social-discord-light.png" width="44" height="44" alt="Discord" /></picture></a>
+  <a href="https://www.buymeacoffee.com/sahaj33" title="Buy Me a Coffee"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-coffee-dark.svg" /><img src="./assets/social-coffee-light.svg" width="44" height="44" alt="Buy Me a Coffee" /></picture></a>
   <a href="./ASSET-CREDITS.md" title="Artwork credits and licenses"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-acknowledgements-dark.png" /><img src="./assets/social-acknowledgements-light.png" width="44" height="44" alt="Credits" /></picture></a>
 </p>
 
