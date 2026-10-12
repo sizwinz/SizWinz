@@ -10,15 +10,6 @@ I’m **Sahaj Italiya**, also known as **SizWinz**, a Computer Engineering stude
 - Exploring agentic coding workflows, local LLMs, and useful AI integrations
 - Growing as an open-source developer, product builder, and technical leader
 
-## A bit more about me
-
--  Computer Engineering student, graduating in **2029**
--  Interested in desktop architecture, developer tooling, practical AI, and product design
--  Strong believer in privacy, local-first software, and optional cloud connectivity
--  I prefer solving real user problems over chasing trends
--  Currently improving my skills in system design, UI/UX, open-source leadership, and entrepreneurship
--  Long-term mission: build resilient products that positively impact millions of people
-
 When I’m not coding, you’ll probably find me exploring tech hardware, psychology, philosophy, Minecraft, Valorant, or Video editing.
 
 ---
