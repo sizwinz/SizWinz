@@ -1,198 +1,106 @@
-### Hello world! <a href="#"><img src="https://cutt.ly/bejwPyFP" width="16"></a> <a href="#"><img src="https://cutt.ly/AejwPXxy" width="18"/></a>
-
-I’m **Sahaj Italiya**, also known as **SizWinz**, a Computer Engineering student from Gujarat, India. I build polished desktop applications, developer tools, and practical AI systems focused on reliability, performance, privacy, and clear UX.
-
-## These days I’m focused on
-
-- Building practical, production-oriented software through **DS Labs**
-- Developing **PocketMC**, a Windows-native Minecraft server manager
-- Creating privacy-friendly, local-first apps.
-- Exploring agentic coding workflows, local LLMs, and useful AI integrations
-- Growing as an open-source developer, product builder, and technical leader
-
-When I’m not coding, you’ll probably find me exploring tech hardware, psychology, philosophy, Minecraft, Valorant, or Video editing.
-
----
+<!--
+SizWinz portfolio · connected project cards with individual links.
+Graphics adapted from HANCORE's MIT-licensed assets. See LICENSE-HANCORE.
+Project covers use original branding and generated artwork based on repository details.
+Rebuild: python scripts/build.py && python scripts/build_art_assets.py && python scripts/build_composed.py && python scripts/build_cards.py && python scripts/build_stats.py && python scripts/build_profile_extras.py && python scripts/build_wakatime.py
+Regenerate README: python scripts/make_readme.py
+-->
 
 <p align="center">
-  <a href="https://sahaj33.me" target="_blank">
-  <img src="https://img.shields.io/badge/Sahaj33.me-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" />
-</a><br>
-  <a href="https://wakatime.com/@sizwinz"><img src="https://wakatime.com/badge/user/fe80941d-298e-4c09-8cf9-8e0a728fd70e.svg" alt="Total time coded since Jul 6 2026" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/sahaj-signature-dark.svg" />
+    <img src="./assets/sahaj-signature-light.svg" width="220" alt="Sahaj Italiya signature" align="top" />
+  </picture>
 </p>
 
----
-
-## Tech Stack Ever Used
-
-<table>
-  <tr>
-    <td align="center" width="130"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-      <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Frameworks & UI</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-      <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-      <img src="https://img.shields.io/badge/WPF-5C2D91?style=flat-square&logo=windows&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>AI / ML</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-      <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/Transformers-FF6F00?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-      <img src="https://img.shields.io/badge/OCR-0F172A?style=flat-square&logo=readthedocs&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Databases</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Tools & Platforms</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" />
-      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-      <img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=termux&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Utilities</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Ngrok-1F1E1E?style=flat-square&logo=ngrok&logoColor=white" />
-      <img src="https://img.shields.io/badge/playit.gg-E34F26?style=flat-square&logo=playitgg&logoColor=white" />
-      <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" />
-      <img src="https://img.shields.io/badge/yt--dlp-FF0000?style=flat-square&logo=youtube&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=flat-square&logo=tampermonkey&logoColor=white" />
-      <img src="https://img.shields.io/badge/Minecraft_Server_Tools-62B47A?style=flat-square&logo=minecraft&logoColor=white" />
-    </td>
-  </tr>
-</table>
-
----
-
-## Featured Work
+<p align="center">
+  <picture>
+    <source media="(min-width: 1280px) and (prefers-color-scheme: dark)" srcset="./assets/bio-wide-dark.png" width="744" height="76" />
+    <source media="(min-width: 1280px) and (prefers-color-scheme: light)" srcset="./assets/bio-wide-light.png" width="744" height="76" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/bio-narrow-dark.png" />
+    <img src="./assets/bio-narrow-light.png" width="280" height="161" alt="Sahaj Italiya — Computer Engineering student and software builder" />
+  </picture>
+</p>
 
 <p align="center">
-  <a href="https://github.com/PocketMC/pocket-mc-windows">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-pocketmc.svg" alt="PocketMC" width="49%" />
-  </a>
-  <a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-msm.svg" alt="MSM" width="49%" />
-  </a>
-  <a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-studysage.svg" alt="StudySage" width="49%" />
-  </a>
-  <a href="https://github.com/sizwinz/SkillWise">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-skillwise.svg" alt="SkillWise" width="49%" />
-  </a>
-  <a href="https://github.com/sizwinz/GitFetch">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-gitfetch.svg" alt="GitFetch" width="49%" />
-  </a>
-  <a href="https://github.com/sizwinz/ServerPulse">
-    <img src="https://raw.githubusercontent.com/sizwinz/SizWinz/main/assets/project-serverpulse.svg" alt="ServerPulse" width="49%" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/label-main-dark.png" />
+    <img src="./assets/label-main-light.png" width="248" alt="Desktop apps and systems" />
+  </picture>
+</p>
+
+<p align="center">
+<a href="https://github.com/PocketMC/pocket-mc-windows" title="PocketMC"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pocketmc-dark.svg" /><img src="./assets/card-pocketmc-light.svg" width="248" height="350" alt="PocketMC" align="top" /></picture></a><a href="https://github.com/sizwinz/MSM-minecraft-server-manager-termux" title="MSM"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-msm-dark.svg" /><img src="./assets/card-msm-light.svg" width="248" height="350" alt="MSM" align="top" /></picture></a><a href="https://github.com/sizwinz/StudySage-Offline-Online-AI-Note-Assistant" title="StudySage"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-studysage-dark.svg" /><img src="./assets/card-studysage-light.svg" width="248" height="350" alt="StudySage" align="top" /></picture></a><br />
+<a href="https://github.com/DS-labs-33" title="DS Labs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ds-labs-dark.svg" /><img src="./assets/card-ds-labs-light.svg" width="744" height="115" alt="DS Labs" align="top" /></picture></a>
+
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/label-gallery-dark.png" />
+    <img src="./assets/label-gallery-light.png" width="248" alt="More things I build" />
+  </picture>
+</p>
+
+<p align="center">
+<a href="https://github.com/sizwinz/GitFetch" title="GitFetch"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-gitfetch-dark.svg" /><img src="./assets/card-gitfetch-light.svg" width="248" height="275" alt="GitFetch" align="top" /></picture></a><a href="https://github.com/sizwinz/SkillWise" title="SkillWise"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-skillwise-dark.svg" /><img src="./assets/card-skillwise-light.svg" width="248" height="275" alt="SkillWise" align="top" /></picture></a><a href="https://github.com/sizwinz/ServerPulse" title="ServerPulse"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-serverpulse-dark.svg" /><img src="./assets/card-serverpulse-light.svg" width="248" height="275" alt="ServerPulse" align="top" /></picture></a><br />
+<a href="https://github.com/sizwinz/WatchMark" title="WatchMark"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-watchmark-dark.svg" /><img src="./assets/card-watchmark-light.svg" width="248" height="115" alt="WatchMark" align="top" /></picture></a><a href="https://github.com/DS-Labs-33/Campus-Assistant" title="Campus Assistant"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-campus-dark.svg" /><img src="./assets/card-campus-light.svg" width="248" height="115" alt="Campus Assistant" align="top" /></picture></a><a href="https://github.com/PocketMC/pocket-mc-linux-mac" title="PocketMC on Linux"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-pocketmc-linux-dark.svg" /><img src="./assets/card-pocketmc-linux-light.svg" width="248" height="115" alt="PocketMC on Linux" align="top" /></picture></a><br />
+<a href="https://github.com/sizwinz?tab=repositories" title="More repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-repositories-dark.svg" /><img src="./assets/card-repositories-light.svg" width="744" height="86" alt="More repositories" align="top" /></picture></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/label-hackathons-dark.svg" />
+    <img src="./assets/label-hackathons-light.svg" width="248" alt="Hackathon projects" />
+  </picture>
+</p>
+
+<p align="center">
+<a href="https://github.com/sizwinz/SchemeSetu" title="SchemeSetu"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-schemesetu-dark.svg" /><img src="./assets/card-schemesetu-light.svg" width="372" height="300" alt="SchemeSetu" align="top" /></picture></a><a href="https://ecospot-web.onrender.com" title="EcoSpot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ecospot-dark.svg" /><img src="./assets/card-ecospot-light.svg" width="372" height="300" alt="EcoSpot" align="top" /></picture></a><br />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-closing-dark.svg" /><img src="./assets/card-closing-light.svg" width="744" height="65" alt="Design · Engineer · Ship" align="top" /></picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sizwinz" title="GitHub statistics"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/github-stats-dark.svg" /><img src="./assets/github-stats-light.svg" width="744" height="412" alt="SizWinz GitHub statistics: project stars, contributions, languages and streaks" /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://wakatime.com/@sizwinz" title="WakaTime all-time tracked time"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/wakatime-dark.svg" /><img src="./assets/wakatime-light.svg" width="360" height="44" alt="WakaTime all-time tracked time" align="top" /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://sahaj33.me" title="sahaj33.me"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-website-dark.svg" /><img src="./assets/link-website-light.svg" width="176" height="56" alt="sahaj33.me" align="top" /></picture></a><a href="https://github.com/PocketMC" title="PocketMC"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-pocketmc-dark.svg" /><img src="./assets/link-pocketmc-light.svg" width="176" height="56" alt="PocketMC" align="top" /></picture></a><a href="https://github.com/DS-labs-33" title="DS Labs"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-dslabs-dark.svg" /><img src="./assets/link-dslabs-light.svg" width="176" height="56" alt="DS Labs" align="top" /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://discord.com/users/775329619259162654" title="Discord"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-discord-dark.png" /><img src="./assets/social-discord-light.png" width="44" height="44" alt="Discord" /></picture></a>
+  <a href="./ASSET-CREDITS.md" title="Artwork credits and licenses"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-acknowledgements-dark.png" /><img src="./assets/social-acknowledgements-light.png" width="44" height="44" alt="Credits" /></picture></a>
 </p>
 
 <details>
-<summary><b> More Projects & Experiments</b></summary>
-<br>
+<summary>About me</summary>
 
-| Project | Stack | Description |
-|---|---|---|
-| [DiagonalNet](https://github.com/itznan/diagonalnet) | Go · Pure Stdlib | Zero-dependency deep learning engine with 13-channel spatial difference manifold calculus and analytical Jacobian autograd |
-| [SchemeSetu](https://github.com/sizwinz/SchemeSetu) | Next.js · React 19 · Vitest | AI-driven scheme matching and channel finance solvency router for MoSJE affirmative credit |
-| [WatchMark](https://github.com/sizwinz/WatchMark) | Flutter · Dart · SQLite | Local-first, privacy-focused media tracker with timestamp progress and Google Drive sync |
-| [pocket-mc-linux-mac](https://github.com/PocketMC/pocket-mc-linux-mac) | C# · Avalonia UI · .NET 8 | Native cross-platform desktop Minecraft server manager for Linux and macOS |
-| [ReleaseWave](https://github.com/sizwinz/releasewave) | Python · PyPI | Agentic changelog generator that analyzes real git diffs and formats for dev / user / social |
-| [GitFetch](https://github.com/sizwinz/GitFetch) | React 19 · TypeScript · Vite | Developer metrics visualizer and structured markdown exporter for AI context |
-| [Campus Assistant](https://github.com/DS-labs-op/campus-assistant) | Python · FastAPI · Next.js | Multilingual RAG chatbot for educational institutions (7+ Indian languages) |
-| [SaaS Inspector](https://github.com/sizwinz/SaaS-Inspector) | TypeScript | Evidence-backed micro-SaaS idea validation engine |
+I am a Computer Engineering student from Surat, India. Driven by curiosity, discipline, and first-principles thinking, I make practical AI systems, desktop applications, and developer tools that solve real problems.
 
-</details>
+As the leader of **DS Labs**, I turn ideas from a blank page into production-quality software. I focus on creating genuine utility for real people rather than chasing trends, making software that others can use without hassle.
 
----
+Beyond writing code, I am deeply interested in human psychology, product design, gaming, and entrepreneurship. I prefer creating over consuming and believe that meaningful progress comes from consistency, small experiments, and independent thinking. In the long term, I want to create products that reach millions of people while building businesses with lasting impact.
 
-<div align="center">
-  <img src="https://live-readme-card.vercel.app/api/card?username=sizwinz&theme=transparent&_t=1787168131031" />
-</div>
+**Tech Stack Ever Used**
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" /><img src="./assets/tech-stack-light.svg" width="744" height="468" alt="Tech Stack Ever Used: languages, frameworks and UI, AI and ML, databases, tools and platforms, utilities" /></picture>
 
-<div align="center">
-  <img src="https://github-profile-trophy-sahaj33.vercel.app/?username=sizwinz&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" />
-</div>
+Explore the projects by clicking their cards above, or visit [all my repositories](https://github.com/sizwinz?tab=repositories). Find me at [sahaj33.me](https://sahaj33.me) or on [Discord](https://discord.com/users/775329619259162654).
 
----
-
-<div align="center">
-<a href="https://discord.com/users/775329619259162654">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=light">
-    <img src="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=light" alt="Discord Presence">
-  </picture>
-</a>
-</div>
-
----
-
-## Quotes I Live By
+**Quotes I live by**
 
 | Quote | Author |
-|-------|--------|
+| --- | --- |
 | Become an expert in one thing and then build multiple income streams out of that one thing. | Raj Shamani |
 | Give people wonderful tools and they'll do wonderful things. | Apple |
 | Ever tried? Ever failed? No matter. Try again. Fail again. Fail better. | Samuel Beckett |
 | I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. | Elon Musk |
 
----
+*Project covers use original branding and generated artwork based on repository details.*
 
-<div align="center">
-  <img src="https://u8views.com/api/v1/github/profiles/211491959/views/day-week-month-total-count.svg" /> <br>
-  <img src="https://moecount.lolihouse.top/get/@:sizwinz" />
-</div>
-
-<div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:1e3a5f&height=120&section=footer&text=~%20%E2%88%9E&fontSize=24&fontColor=7dd3fc&animation=fadeIn"
-    width="100%"
-  />
-</div>
+</details>

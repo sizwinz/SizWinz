@@ -1,0 +1,55 @@
+[
+  {
+    "slug": "pocketmc",
+    "references": [
+      "D:/Projects/PocketMC/pocket-mc-windows/docs/assets/branding/logo.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create a square editorial project cover for PocketMC, a native Windows local-first Minecraft Java and Bedrock server manager. Reference image is the project's real logo, for identity and color guidance only; DO NOT redraw or include any logo, the original will be overlaid later. Scene: a finely crafted small voxel terrain island with grass, stone, a few trees and a subtle cave; three elegant physical server modules sit securely beneath the island, thin muted orange connections imply local instance orchestration and backups. Dark graphite studio backdrop, green accents from reference, warm orange edge light, professional restrained 3D render, crisp readable silhouette at small thumbnail size. Subject centered, medium close-up, generous clean dark corners and small empty upper-left area for actual logo overlay. No computer screens, no fake dashboard, no text, no numbers, no logos, no Minecraft character faces. Fill square frame with purposeful composition, no outer card border."
+  },
+  {
+    "slug": "msm",
+    "references": [
+      "D:/Projects/My Repositoris/MSM-minecraft-server-manager-termux/assets/msm.png"
+    ],
+    "prompt": "Use case: stylized-concept. Square project cover for MSM, Python Minecraft Server Manager: a command-line toolkit spanning Termux on Android, Linux and Windows, server lifecycle, world backups and public tunnels. Supplied real terminal screenshot establishes cyan/black identity and purpose; don't reproduce it or invent a replacement UI. Create an elegant 3D still life: a slim phone outline beside a physical server tower on a voxel grass-and-stone plinth; a cyan command prompt glyph >_ suspended prominently in front, delicate cyan routes connect phone, server and a small backup cube. Graphite studio backdrop, restrained cyan and muted orange accents, clean technical look, balanced large readable forms, square crop. No readable screen text, no fake interface, no labels, no numbers, no invented official logo, no outer card border."
+  },
+  {
+    "slug": "studysage",
+    "references": [
+      "D:/Projects/My Repositoris/StudySage-Offline-Online-AI-Note-Assistant/assets/images/logo.png"
+    ],
+    "prompt": "Use case: stylized-concept. Square editorial project cover for StudySage, privacy-first offline and online AI note assistant with OCR, summaries and quizzes. Reference is the real brain/open-book logo, use its mint/lavender/navy colors but do not redraw or include any logo (actual logo added later). Create a sculptural open notebook with two clean pages: a few abstract broad lines on one and small quiz-check symbols on the other; a mint and lavender glass neural crystal floats above the spine, three paper sheets gently flow from a subtle scan-light frame into the book. Graphite studio background, warm subtle orange edge light to fit a developer portfolio. Large coherent central subject and legible silhouettes, upper-left breathing room for logo. No readable text or numerals, no fake app windows, no interface, no badges, no border."
+  },
+  {
+    "slug": "gitfetch",
+    "references": [
+      "D:/Projects/My Repositoris/GitFetch/public/screenshot dark.png"
+    ],
+    "prompt": "Use case: stylized-concept. Landscape 16:9 editorial cover for GitFetch, a real GitHub developer profile intelligence app exporting repository/contribution insights into structured Markdown and AI-ready portfolio context. Reference actual screenshot is evidence of capabilities, not a screenshot to modify. Draw a restrained three-dimensional technical still life: a source-code branch graph built from crisp graphite metal nodes on the left, a luminous mint-and-blue circular analysis lens in the center, and a clean paper-like Markdown document with only an abstract heading line and # symbol to the right; thin warm orange paths connect them. Graphite studio backdrop and muted mint/blue/orange accents, mature professional product artwork, readable at 248px thumbnail. No app UI, no dashboard panels, no invented metrics, no readable words, no logos, no outer border. Fill horizontal composition."
+  },
+  {
+    "slug": "skillwise",
+    "references": [
+      "D:/Projects/My Repositoris/SkillWise/SkillWise.png"
+    ],
+    "prompt": "Use case: stylized-concept. Landscape 16:9 editorial project cover for SkillWise, AI resume ingestion and skill-gap analysis generating personalized six-month career learning roadmaps. Actual project logo reference establishes teal/blue/navy identity; do not copy or redraw logo in image (original will be overlaid). A physical document folio in lower-left becomes a precise winding teal/blue illuminated path with six milestone blocks stepping gently upwards to a small clean star at upper-right; each milestone uses a tiny neutral check-mark, with one warm orange highlight. Graphite studio backdrop, restrained soft shadows and polished matte materials, large distinct forms, beautiful balanced horizontal framing, upper-left clear corner for real logo. No fake app UI, no dashboard, no text, no numbers, no brand logo, no outer card border."
+  },
+  {
+    "slug": "serverpulse",
+    "prompt": "Use case: stylized-concept. Landscape 16:9 editorial cover for ServerPulse, a real Discord analytics bot: aggregates messages, joins, reactions and voice activity; detects raids and activity drops; writes AI pulse reports. Create an elegant 3D network of small speech-bubble forms and community-node spheres arranged around a central graphite server module; a bright violet and muted-orange pulse waveform flows through the network and into a clean report sheet with abstract broad lines. Graphite studio background, restrained Discord-adjacent periwinkle/violet accent, subtle orange edge lights matching a slate developer portfolio. Large clear composition readable at thumbnail size, refined and professional. No fake app or Discord screens, no bars with numeric claims, no readable text, no logos or branded mascot, no outer card border."
+  },
+  {
+    "slug": "schemesetu",
+    "references": [
+      "D:/Projects/Hackathon/SchemeSetu1/public/logo.png"
+    ],
+    "prompt": "Use case: stylized-concept. Landscape 16:9 project cover for SchemeSetu, Smart India Hackathon problem 26092: Indian concessional-credit scheme matching for entrepreneurs and students, EMI simulation and routing to channel finance partners. Use supplied real amber/orange government-building/road/hand logo as identity and color reference only; no logo reproduction, actual logo inserted separately. Elegant editorial 3D illustration of a warm orange bridge linking a small business/workshop on one side and a classical civic/finance building on the other, with a clearly visible paper application token traveling across the bridge on a luminous route. Include a second small study-book form beside workshop to represent student beneficiaries. Graphite studio environment, muted amber and cream highlights, exact large silhouette, professional restrained geometry, empty upper-left corner. No UI screens, no percentages, no rates, no text, no official government seal, no people, no outer border."
+  },
+  {
+    "slug": "ecospot",
+    "references": [
+      "D:/Projects/Hackathon/Hackout DAIICT/frontend/public/EcoSpot.png"
+    ],
+    "prompt": "Use case: stylized-concept. Landscape 16:9 editorial cover for EcoSpot, HackOut 26 DA-IICT project for industrial emissions hotspot detection and circularity retrofit scenarios. Logo reference gives green/teal/leaf/circular-arrow identity, do not redraw or include logo (original overlaid later). Refined small isometric factory with two process modules on a graphite plinth; a subtle warm orange heat hotspot is visible on one process pipe; clean green circular-flow arrows route recovered waste heat back into the plant, a few small rooftop solar panels and one restrained green leaf form make circular efficiency legible. Dark graphite studio background, mature technical style, teal/green brand light and warm orange diagnostic accents. Composition horizontal with clearly recognizable factory, room in upper-left for original logo. No UI, no fake statistics, no pollution rates, no readable text, no government seals, no extra industrial sectors, no outer border."
+  }
+]

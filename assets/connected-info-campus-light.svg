@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1248" height="464" viewBox="0 0 624 232" role="img" aria-label="Campus Assistant: multilingual education AI">
+ <title>Campus Assistant</title>
+ <path d="M312 0V56" fill="none" stroke="#8d969b" stroke-width="2.5"/>
+ <path d="M312 12V32M301 56H323" fill="none" stroke="#242b31" stroke-width="3"/>
+ <defs><filter id="shadow" x="-15%" y="-50%" width="130%" height="210%"><feGaussianBlur stdDeviation="8"/><feOffset dy="10"/></filter></defs>
+ <path d="M24 56H600V182L578 204H24Z" fill="#000" opacity=".48" filter="url(#shadow)"/>
+ <path d="M24 56H600V182L578 204H24Z" fill="#f3f2ef" stroke="#b9c0c1" stroke-width="1.5"/>
+ <text x="312" y="112" text-anchor="middle" font-family="Arial,DejaVu Sans,sans-serif" font-weight="600" font-size="38" fill="#242b31">Campus Assistant</text>
+ <text x="312" y="166" text-anchor="middle" font-family="Arial,DejaVu Sans,sans-serif" font-weight="500" font-size="29" fill="#55616a">Multilingual campus helper.</text></svg>

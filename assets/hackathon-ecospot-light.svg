@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1488" height="1096" viewBox="0 0 744 548" role="img" aria-label="EcoSpot: Industrial emissions &amp; circularity intelligence">
+ <title>EcoSpot — hackathon project showcase</title>
+ <path d="M0 31H372V91M372 481V548" stroke="#8d969b" stroke-width="2.5" fill="none"/><rect x="368" y="5" width="8" height="8" fill="#c34f1b"/>
+ <path d="M361 91H383M361 481H383" stroke="#242b31" stroke-width="3"/>
+ <defs><filter id="shadow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="5"/><feOffset dy="6"/></filter></defs>
+ <path d="M24 83H720V458L697 483H24Z" fill="#000" opacity=".3" filter="url(#shadow)"/>
+ <path d="M24 83H720V458L697 483H24Z" fill="#f3f2ef" stroke="#b9c0c1" stroke-width="1.5"/>
+ <rect x="33" y="92" width="678" height="296" fill="#e9ece9"/>
+ <text x="52" y="126" font-family="Arial,DejaVu Sans,sans-serif" font-size="26" font-weight="700" fill="#242b31">EcoSpot</text>
+ <text x="692" y="124" font-family="Arial,sans-serif" font-size="13" text-anchor="end" fill="#c34f1b">HACKATHON / 02</text>
+ <text x="52" y="157" font-family="Arial,sans-serif" font-size="16" fill="#55616a">Industrial emissions &amp; circularity intelligence</text>
+ <path d="M52 174H690" stroke="#b9c0c1" stroke-width="1.5"/>
+ <rect x="44" y="208" width="358" height="160" rx="5" fill="#e1e6e4" stroke="#b9c0c1"/>
+ <text x="62" y="236" font-size="16" font-weight="600" fill="#242b31">EMISSIONS HOTSPOTS</text>
+ <path d="M75 333H375M75 254V333" stroke="#b9c0c1" stroke-width="1.5"/>
+ <rect x="101" y="296" width="39" height="37" rx="2" fill="#357c5e"/><rect x="151" y="266" width="39" height="67" rx="2" fill="#c34f1b"/>
+ <rect x="201" y="284" width="39" height="49" rx="2" fill="#357c5e"/><rect x="251" y="248" width="39" height="85" rx="2" fill="#c34f1b"/>
+ <rect x="301" y="307" width="39" height="26" rx="2" fill="#357c5e"/>
+ <text x="61" y="354" font-size="13" fill="#55616a">Source-level diagnostics</text>
+ <rect x="414" y="208" width="286" height="160" rx="5" fill="#e1e6e4" stroke="#b9c0c1"/>
+ <text x="435" y="236" font-size="16" font-weight="600" fill="#242b31">CIRCULARITY ENGINE</text>
+ <text x="435" y="279" font-size="24" font-weight="700" fill="#c34f1b">What-if analysis</text>
+ <path d="M439 329L480 310L520 315L560 280L600 286L665 253" stroke="#357c5e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="435" y="353" font-size="13" fill="#55616a">CapEx • savings • payback</text>
+ <text x="48" y="425" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="600" fill="#242b31">HackOut '26 · DA-IICT</text>
+ <text x="48" y="462" font-family="Arial,sans-serif" font-size="15" fill="#55616a">React  ·  TypeScript  ·  FastAPI</text>
+ <path d="M645 445H690L680 435M690 445L680 455" stroke="#c34f1b" stroke-width="2" fill="none" stroke-linecap="round"/>
+ </svg>

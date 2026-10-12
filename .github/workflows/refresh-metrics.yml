@@ -1,0 +1,64 @@
+name: Refresh profile metrics
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_cards.py"
+      - "scripts/build_stats.py"
+      - "scripts/refresh_metrics.py"
+      - "scripts/refresh_wakatime.py"
+      - "scripts/build_wakatime.py"
+      - ".github/workflows/refresh-metrics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch metrics and render artwork
+        id: github_metrics
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/refresh_metrics.py
+      - name: Validate thresholds and streak calculations
+        run: python -m unittest discover -s tests
+      - name: Fetch WakaTime and render custom activity card
+        id: waka
+        continue-on-error: true
+        env:
+          WAKATIME_USERNAME: ${{ vars.WAKATIME_USERNAME || 'sizwinz' }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python scripts/refresh_wakatime.py
+      - name: Save refreshed graphics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-metrics.json assets/card-*.svg assets/github-stats-*.svg
+          git add assets/wakatime-*.svg
+          if [ -f assets/wakatime-metrics.json ]; then git add assets/wakatime-metrics.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh profile stars, statistics and coding activity"
+            git push
+          fi
+      - name: Report refresh failures
+        if: steps.waka.outcome == 'failure' || steps.github_metrics.outcome == 'failure'
+        run: |
+          echo "::error::A metrics source could not refresh. Last successful snapshot retained. Check GitHub access or WakaTime public stats / WAKATIME_API_KEY."
+          exit 1

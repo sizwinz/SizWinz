@@ -1,0 +1,80 @@
+name: Validate README graphics
+
+on:
+  push:
+    branches: [main, design/hackathon-showcase]
+  pull_request:
+    paths:
+      - "README.md"
+      - "assets/**"
+      - "source/**"
+      - "scripts/build_composed.py"
+      - "scripts/make_readme.py"
+      - "scripts/build_cards.py"
+      - "scripts/build_art_assets.py"
+      - "scripts/build_stats.py"
+      - "scripts/refresh_metrics.py"
+      - "scripts/build_profile_extras.py"
+      - "scripts/build_wakatime.py"
+      - "scripts/refresh_wakatime.py"
+      - "tests/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install graphics validator
+        run: python -m pip install --disable-pip-version-check cairosvg pillow
+      - name: Regenerate section illustrations
+        run: |
+          python scripts/build_art_assets.py
+          python scripts/build_composed.py
+          python scripts/build_cards.py
+          python scripts/build_stats.py
+          python scripts/build_profile_extras.py
+          python scripts/build_wakatime.py
+      - name: Check metrics logic
+        run: python -m unittest discover -s tests
+      - name: Validate SVG parsing and image rasterization
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          import cairosvg
+          root = Path("assets")
+          files = [file for pattern in ("card-*.svg", "github-stats-*.svg", "wakatime-*.svg", "link-*.svg", "tech-stack-*.svg") for file in root.glob(pattern)]
+          for file in files:
+              ET.parse(file)
+              assert len(cairosvg.svg2png(url=str(file))) > 1000
+          for kind in ("main", "gallery", "hackathon"):
+              for theme in ("dark", "light"):
+                  file = root / f"composed-{kind}-{theme}.svg"
+                  ET.parse(file)
+                  png = cairosvg.svg2png(url=str(file))
+                  assert len(png) > 1000, f"Rendered PNG unexpectedly small: {file}"
+                  print(f"OK: {file} ({len(png)} bytes)")
+          PY
+      - name: Validate README image paths
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          s = Path("README.md").read_text(encoding="utf-8")
+          files = re.findall(r'(?:src|srcset)="(\./assets/[^"]+)"', s)
+          missing = [p for p in files if not Path(p).exists()]
+          assert not missing, f"Missing referenced images: {missing}"
+          assert "ReleaseWave" not in s and "SaaS Inspector" not in s
+          assert s.count('title="PocketMC"') == 1
+          assert '<summary>About me</summary>' in s
+          print(f"Checked {len(files)} referenced images")
+          PY
+      - name: Confirm generator reproduces README
+        run: |
+          python scripts/make_readme.py
+          git diff --exit-code -- README.md assets/composed-*.svg assets/card-*.svg assets/github-stats-*.svg assets/link-*.svg assets/tech-stack-*.svg assets/wakatime-*.svg

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1488" height="1096" viewBox="0 0 744 548" role="img" aria-label="SchemeSetu: AI-powered scheme &amp; channel-finance matching">
+ <title>SchemeSetu — hackathon project showcase</title>
+ <path d="M744 31H372V91M372 481V548" stroke="#8d969b" stroke-width="2.5" fill="none"/><rect x="368" y="5" width="8" height="8" fill="#c34f1b"/>
+ <path d="M361 91H383M361 481H383" stroke="#242b31" stroke-width="3"/>
+ <defs><filter id="shadow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="5"/><feOffset dy="6"/></filter></defs>
+ <path d="M24 83H720V458L697 483H24Z" fill="#000" opacity=".3" filter="url(#shadow)"/>
+ <path d="M24 83H720V458L697 483H24Z" fill="#f3f2ef" stroke="#b9c0c1" stroke-width="1.5"/>
+ <rect x="33" y="92" width="678" height="296" fill="#e9ece9"/>
+ <text x="52" y="126" font-family="Arial,DejaVu Sans,sans-serif" font-size="26" font-weight="700" fill="#242b31">SchemeSetu</text>
+ <text x="692" y="124" font-family="Arial,sans-serif" font-size="13" text-anchor="end" fill="#c34f1b">HACKATHON / 01</text>
+ <text x="52" y="157" font-family="Arial,sans-serif" font-size="16" fill="#55616a">AI-powered scheme &amp; channel-finance matching</text>
+ <path d="M52 174H690" stroke="#b9c0c1" stroke-width="1.5"/>
+ <rect x="44" y="208" width="300" height="160" rx="5" fill="#e1e6e4" stroke="#b9c0c1"/>
+ <text x="62" y="236" font-size="16" font-weight="600" fill="#242b31">ELIGIBILITY WORKFLOW</text>
+ <g font-size="13" font-weight="600" fill="#55616a" text-anchor="middle">
+ <rect x="59" y="265" width="73" height="44" rx="5" stroke="#b9c0c1" fill="#e9ece9"/><text x="95" y="291">Applicant</text>
+ <rect x="154" y="265" width="73" height="44" rx="5" stroke="#b9c0c1" fill="#e9ece9"/><text x="190" y="291">Matcher</text>
+ <rect x="249" y="265" width="80" height="44" rx="5" stroke="#b9c0c1" fill="#e9ece9"/><text x="289" y="291">Partner</text>
+ </g>
+ <path d="M135 287H150M230 287H245" stroke="#c34f1b" stroke-width="2.5" stroke-linecap="round"/><path d="M144 281L150 287L144 293M239 281L245 287L239 293" stroke="#c34f1b" stroke-width="2" fill="none"/>
+ <text x="62" y="344" fill="#357c5e" font-size="13">Scheme matched</text><circle cx="269" cy="339" r="7" fill="#357c5e"/>
+ <rect x="356" y="208" width="344" height="160" rx="5" fill="#e1e6e4" stroke="#b9c0c1"/>
+ <text x="377" y="236" font-size="16" font-weight="600" fill="#242b31">CONCESSIONAL CREDIT</text>
+ <text x="377" y="275" font-size="32" font-weight="700" fill="#c34f1b">90%</text>
+ <text x="483" y="274" font-size="14" fill="#55616a">eligible project costs</text>
+ <rect x="377" y="302" width="290" height="10" rx="5" fill="#b9c0c1"/>
+ <rect x="377" y="302" width="252" height="10" rx="5" fill="#357c5e"/>
+ <text x="377" y="343" font-size="13" fill="#55616a">Routing • EMI • Multilingual</text>
+ <text x="48" y="425" font-family="Arial,DejaVu Sans,sans-serif" font-size="20" font-weight="600" fill="#242b31">Smart India Hackathon · Problem 26092</text>
+ <text x="48" y="462" font-family="Arial,sans-serif" font-size="15" fill="#55616a">Next.js  ·  TypeScript  ·  React</text>
+ <path d="M645 445H690L680 435M690 445L680 455" stroke="#c34f1b" stroke-width="2" fill="none" stroke-linecap="round"/>
+ </svg>
