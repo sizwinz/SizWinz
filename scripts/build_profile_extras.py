@@ -38,22 +38,26 @@ def document(body, width, height, title):
 
 def stack_panel(theme):
     panel, border, ink, muted, accent, inset = palette(theme)
-    body = f'<path d="M12 12H732V436L712 456H12Z" fill="{panel}" stroke="{border}"/>'
+    body = f'<path d="M12 12H732V546L712 566H12Z" fill="{panel}" stroke="{border}"/>'
     body += text(32, 44, 'TECH STACK / EVER USED', 15, accent, 700)
-    y = 68
-    for label, items in STACK:
-        body += text(32, y + 18, label, 12, ink, 700)
-        x, cy = 190, y
+    body += f'<path d="M32 62H712" stroke="{border}"/>'
+    for index, (label, items) in enumerate(STACK):
+        left = 32 + (index % 2) * 348
+        top = 82 + (index // 2) * 160
+        body += f'<rect x="{left}" y="{top}" width="332" height="148" rx="3" fill="{inset}" stroke="{border}"/>'
+        body += f'<path d="M{left + 16} {top + 18}V{top + 30}" stroke="{accent}" stroke-width="2"/>'
+        body += text(left + 26, top + 28, label, 13, ink, 700)
+        x, cy = left + 16, top + 44
         for item in items:
-            width = max(40, len(item) * 6.4 + 20)
-            if x + width > 711:
-                x, cy = 190, cy + 28
-            body += f'<rect x="{x}" y="{cy}" width="{width}" height="23" rx="2" fill="{inset}" stroke="{border}"/>'
-            body += text(x + 10, cy + 16, item, 11, muted)
-            x += width + 6
-        y = cy + 39
-        body += f'<path d="M32 {y - 7}H711" stroke="{border}"/>'
-    return document(body, 744, 468, 'Tech Stack Ever Used: ' + '; '.join(label + ': ' + ', '.join(items) for label, items in STACK))
+            # A fixed-width font makes chip sizing deterministic on every runner.
+            width = len(item) * 7.2 + 20
+            if x + width > left + 316:
+                x, cy = left + 16, cy + 33
+            body += f'<rect x="{x}" y="{cy}" width="{width}" height="26" rx="2" fill="{panel}" stroke="{border}"/>'
+            body += (f'<text x="{x + 10}" y="{cy + 17}" fill="{muted}" '
+                     f'font-family="DejaVu Sans Mono,monospace" font-size="12">{escape(item)}</text>')
+            x += width + 8
+    return document(body, 744, 578, 'Tech Stack Ever Used: ' + '; '.join(label + ': ' + ', '.join(items) for label, items in STACK))
 
 
 def footer_button(slug, label, theme):

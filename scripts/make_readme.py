@@ -60,7 +60,7 @@ Regenerate README: python scripts/make_readme.py
 </p>
 
 <p align="center">
-<a href="https://github.com/sizwinz/SchemeSetu" title="SchemeSetu"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-schemesetu-dark.svg" /><img src="./assets/card-schemesetu-light.svg" width="372" height="300" alt="SchemeSetu" align="top" /></picture></a><a href="https://ecospot-web.onrender.com" title="EcoSpot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ecospot-dark.svg" /><img src="./assets/card-ecospot-light.svg" width="372" height="300" alt="EcoSpot" align="top" /></picture></a><br />
+<a href="https://github.com/sizwinz/SchemeSetu" title="SchemeSetu"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-schemesetu-dark.svg" /><img src="./assets/card-schemesetu-light.svg" width="372" height="300" alt="SchemeSetu" align="top" /></picture></a><a href="https://github.com/sizwinz/EcoSpot" title="EcoSpot"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-ecospot-dark.svg" /><img src="./assets/card-ecospot-light.svg" width="372" height="300" alt="EcoSpot" align="top" /></picture></a><br />
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-closing-dark.svg" /><img src="./assets/card-closing-light.svg" width="744" height="65" alt="Design · Engineer · Ship" align="top" /></picture>
 </p>
 
@@ -90,11 +90,7 @@ As the leader of **DS Labs**, I turn ideas from a blank page into production-qua
 
 Beyond writing code, I am deeply interested in human psychology, product design, gaming, and entrepreneurship. I prefer creating over consuming and believe that meaningful progress comes from consistency, small experiments, and independent thinking. In the long term, I want to create products that reach millions of people while building businesses with lasting impact.
 
-**Tech Stack Ever Used**
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" /><img src="./assets/tech-stack-light.svg" width="744" height="468" alt="Tech Stack Ever Used: languages, frameworks and UI, AI and ML, databases, tools and platforms, utilities" /></picture>
-
-Explore the projects by clicking their cards above, or visit [all my repositories](https://github.com/sizwinz?tab=repositories). Find me at [sahaj33.me](https://sahaj33.me) or on [Discord](https://discord.com/users/775329619259162654).
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" /><img src="./assets/tech-stack-light.svg" width="744" height="578" alt="Tech Stack Ever Used: languages, frameworks and UI, AI and ML, databases, tools and platforms, utilities" /></picture>
 
 **Quotes I live by**
 
@@ -104,8 +100,6 @@ Explore the projects by clicking their cards above, or visit [all my repositorie
 | Give people wonderful tools and they'll do wonderful things. | Apple |
 | Ever tried? Ever failed? No matter. Try again. Fail again. Fail better. | Samuel Beckett |
 | I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better. | Elon Musk |
-
-*Project covers use original branding and generated artwork based on repository details.*
 
 </details>
 """
