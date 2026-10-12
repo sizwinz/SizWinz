@@ -70,7 +70,7 @@ jobs:
           missing = [p for p in files if not Path(p).exists()]
           assert not missing, f"Missing referenced images: {missing}"
           assert "ReleaseWave" not in s and "SaaS Inspector" not in s
-          assert s.count('title="PocketMC"') == 1
+          assert s.count('src="./assets/card-pocketmc-light.svg"') == 1
           assert '<summary>About me</summary>' in s
           print(f"Checked {len(files)} referenced images")
           PY
