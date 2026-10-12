@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T15:35:35+00:00",
+  "updated_at": "2026-10-12T15:57:09+00:00",
   "user": "sizwinz",
   "repositories": {
     "sizwinz/StudySage-Offline-Online-AI-Note-Assistant": 12,
@@ -42,14 +42,14 @@
   "project_stars": 120,
   "languages": [
     {
+      "name": "Python",
+      "bytes": 1504230,
+      "color": "#3572A5"
+    },
+    {
       "name": "TypeScript",
       "bytes": 1464648,
       "color": "#3178c6"
-    },
-    {
-      "name": "Python",
-      "bytes": 1432993,
-      "color": "#3572A5"
     },
     {
       "name": "Dart",
@@ -140,12 +140,12 @@
   "contributions": {
     "startedAt": "2025-10-12T00:00:00Z",
     "endedAt": "2026-10-12T23:59:59Z",
-    "totalCommitContributions": 1702,
-    "totalPullRequestContributions": 79,
+    "totalCommitContributions": 1650,
+    "totalPullRequestContributions": 78,
     "totalIssueContributions": 6,
-    "totalRepositoriesWithContributedCommits": 38,
+    "totalRepositoriesWithContributedCommits": 37,
     "contributionCalendar": {
-      "totalContributions": 2317,
+      "totalContributions": 2322,
       "weeks": [
         {
           "contributionDays": [
@@ -1819,7 +1819,7 @@
             },
             {
               "date": "2026-10-12",
-              "contributionCount": 54
+              "contributionCount": 59
             }
           ]
         }
