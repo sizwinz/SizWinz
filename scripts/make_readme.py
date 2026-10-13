@@ -85,11 +85,15 @@ Regenerate README: python scripts/make_readme.py
 <details>
 <summary>About me</summary>
 
-I am a Computer Engineering student from Surat, India. Driven by curiosity, discipline, and first-principles thinking, I make practical AI systems, desktop applications, and developer tools that solve real problems.
+I am a computer engineering student at Gujarat, India, trying to turn ideas into products that people might enjoy using.
 
-As the leader of **DS Labs**, I turn ideas from a blank page into production-quality software. I focus on creating genuine utility for real people rather than chasing trends, making software that others can use without hassle.
+I enjoy coding software and experimenting with new technology and approaches to create better products; My interests vary from AI to desktop applications, developer tools, and product development. I started **PocketMC**, a product I envisioned to redefine server management software for Minecraft.
 
-Beyond writing code, I am deeply interested in human psychology, product design, gaming, and entrepreneurship. I prefer creating over consuming and believe that meaningful progress comes from consistency, small experiments, and independent thinking. In the long term, I want to create products that reach millions of people while building businesses with lasting impact.
+I currently lead **DS Labs**, an organization in which I engage in idea and product development, as well as research to learn and experience the processes needed to evolve ideas into functional products, learning about the intricacies and real-life implementation details of software design and development.
+
+Outside of coding, I'm fascinated by human psychology, gaming, entrepreneurship, and how people think and make decisions. I enjoy understanding not just how something works, but why it works.
+
+I want to achieve ambitious goals for the products I am involved with, but I also understand that time is a critical factor, and I enjoy learning and experimenting with new concepts and approaches to evolve my skills as an engineer and software architect. I aspire to launch products with an impact worldwide and eventually turn them into successful businesses.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/setup-dark.svg" /><img src="./assets/setup-light.svg" width="744" height="304" alt="My setup: laptop, phone, mouse and earbuds" /></picture>
 
