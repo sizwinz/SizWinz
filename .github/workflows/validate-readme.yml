@@ -48,7 +48,7 @@ jobs:
           from xml.etree import ElementTree as ET
           import cairosvg
           root = Path("assets")
-          files = [file for pattern in ("card-*.svg", "github-stats-*.svg", "wakatime-*.svg", "link-*.svg", "tech-stack-*.svg") for file in root.glob(pattern)]
+          files = [file for pattern in ("card-*.svg", "github-stats-*.svg", "wakatime-*.svg", "link-*.svg", "tech-stack-*.svg", "setup-*.svg", "social-coffee-*.svg") for file in root.glob(pattern)]
           for file in files:
               ET.parse(file)
               assert len(cairosvg.svg2png(url=str(file))) > 1000
@@ -77,4 +77,4 @@ jobs:
       - name: Confirm generator reproduces README
         run: |
           python scripts/make_readme.py
-          git diff --exit-code -- README.md assets/composed-*.svg assets/card-*.svg assets/github-stats-*.svg assets/link-*.svg assets/tech-stack-*.svg assets/wakatime-*.svg
+          git diff --exit-code -- README.md assets/composed-*.svg assets/card-*.svg assets/github-stats-*.svg assets/link-*.svg assets/tech-stack-*.svg assets/wakatime-*.svg assets/setup-*.svg assets/social-coffee-*.svg

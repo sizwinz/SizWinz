@@ -91,6 +91,8 @@ As the leader of **DS Labs**, I turn ideas from a blank page into production-qua
 
 Beyond writing code, I am deeply interested in human psychology, product design, gaming, and entrepreneurship. I prefer creating over consuming and believe that meaningful progress comes from consistency, small experiments, and independent thinking. In the long term, I want to create products that reach millions of people while building businesses with lasting impact.
 
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/setup-dark.svg" /><img src="./assets/setup-light.svg" width="744" height="304" alt="My setup: laptop, phone, mouse and earbuds" /></picture>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-grid-dark.svg" /><img src="./assets/tech-stack-grid-light.svg" width="744" height="578" alt="Tech Stack Ever Used: languages, frameworks and UI, AI and ML, databases, tools and platforms, utilities" /></picture>
 
 **Quotes I live by**

@@ -76,6 +76,27 @@ def footer_button(slug, label, theme):
     return document(body, 176, 56, label)
 
 
+def setup_panel(theme):
+    panel, border, ink, muted, accent, inset = palette(theme)
+    original = ET.parse(ROOT / 'source/setup-original.svg').getroot()
+    # The supplied SVG is traced line art: its white paths are the devices,
+    # while the black group is an export background. Retain device geometry
+    # and omit the exporter's editor transforms and interactive styling.
+    artwork = next(group for group in original
+                   if group.get('fill') == 'rgb(255,255,255)')
+    paths = ''.join(ET.tostring(ET.Element('path', {'d': path.get('d', '')}), encoding='unicode')
+                    for path in artwork.iter('{http://www.w3.org/2000/svg}path'))
+    body = f'<path d="M12 12H732V272L712 292H12Z" fill="{panel}" stroke="{border}"/>'
+    body += text(32, 44, 'MY SETUP', 15, accent, 700)
+    body += f'<path d="M32 62H712" stroke="{border}"/>'
+    body += f'<rect x="32" y="76" width="680" height="170" rx="3" fill="{inset}"/>'
+    body += (f'<svg x="32" y="76" width="680" height="170" viewBox="0 0 25080 6270">'
+             f'<g fill="{ink}" stroke="{ink}" stroke-width="8">{paths}</g></svg>')
+    for x, label in ((192, 'Laptop'), (366, 'Phone'), (479, 'Mouse'), (610, 'Earbuds')):
+        body += text(x, 270, label, 12, muted, 600, 'middle')
+    return document(body, 744, 304, 'My setup: laptop, phone, mouse and earbuds')
+
+
 def coffee_icon(theme):
     _, _, ink, _, accent, _ = palette(theme)
     body = (f'<g fill="none" stroke="{ink}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
@@ -87,6 +108,7 @@ def coffee_icon(theme):
 
 def main():
     for theme in ('dark', 'light'):
+        (ROOT / f'assets/setup-{theme}.svg').write_text(setup_panel(theme), encoding='utf-8')
         (ROOT / f'assets/tech-stack-grid-{theme}.svg').write_text(stack_panel(theme), encoding='utf-8')
         (ROOT / f'assets/social-coffee-{theme}.svg').write_text(coffee_icon(theme), encoding='utf-8')
         for slug, label in [('website', 'sahaj33.me'), ('pocketmc', 'PocketMC'), ('dslabs', 'DS Labs')]:
