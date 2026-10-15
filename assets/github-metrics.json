@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:25:08+00:00",
+  "updated_at": "2026-10-15T22:30:00+00:00",
   "user": "sizwinz",
   "repositories": {
     "sizwinz/StudySage-Offline-Online-AI-Note-Assistant": 12,
@@ -49,7 +49,7 @@
     },
     {
       "name": "Python",
-      "bytes": 1665747,
+      "bytes": 1695179,
       "color": "#3572A5"
     },
     {
@@ -84,18 +84,18 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 29198,
+      "bytes": 29874,
       "color": "#012456"
+    },
+    {
+      "name": "Shell",
+      "bytes": 26438,
+      "color": "#89e051"
     },
     {
       "name": "C++",
       "bytes": 26229,
       "color": "#f34b7d"
-    },
-    {
-      "name": "Shell",
-      "bytes": 25909,
-      "color": "#89e051"
     },
     {
       "name": "CMake",
