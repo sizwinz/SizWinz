@@ -1,13 +1,16 @@
 # Profile README state
 
 ## Objective and status
-Add live Discord presence below My setup in About; remove the setup device labels. Implemented locally; publishing and hosted verification pending.
+Complete: live Discord presence, setup labels removed, compact setup padding, and four independently collapsible profile sections. Published to main.
 
 ## Verified work
 - `scripts/build_profile_extras.py` retains the setup illustration with no visible device labels.
 - `README.md` and `scripts/make_readme.py` embed the hosted Discord SVG with dark/light palette backgrounds, square corners, display name, and the supplied idle message.
 - The service returned HTTP 200 / image/svg+xml for this Discord ID. Both themes were visually checked locally, including current Spotify activity.
-- Added exactly one regression test for the absence of device labels; observed its failure before implementation, then all 10 tests passed.
+- Three focused regressions cover absent setup labels, compact bottom padding, and independent disclosure sections. Each was observed failing before its respective change. All 12 tests pass.
+- Setup panel reduced from 304px to 272px height; artwork dimensions retained and bottom padding reduced from 46px to 14px.
+- Bio, setup/current activity, tech stack, and quotes now expand independently; existing biography preserved.
+- GitHub rendering checked for the live Discord activity and all four disclosure rows. Graphics validation passed on implementation commit `977f212` (run `40472081738`).
 
 ## Decisions and limitations
 - Use the existing hosted endpoint; no service repository edits or deployment required.
@@ -15,4 +18,4 @@ Add live Discord presence below My setup in About; remove the setup device label
 - The canonical live-profile checkout is `D:/Projects/Portfolio/SizWinz`, remote `sizwinz/SizWinz`, branch `main`. The Testing checkout is the earlier design workspace.
 
 ## Next action
-Commit and push the focused changes, then verify GitHub graphics validation and the rendered About section.
+No remaining implementation tasks. For profile copy edits, update both README.md and scripts/make_readme.py; run python scripts/make_readme.py and the existing regeneration check.
