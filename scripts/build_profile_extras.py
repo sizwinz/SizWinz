@@ -86,13 +86,13 @@ def setup_panel(theme):
                    if group.get('fill') == 'rgb(255,255,255)')
     paths = ''.join(ET.tostring(ET.Element('path', {'d': path.get('d', '')}), encoding='unicode')
                     for path in artwork.iter('{http://www.w3.org/2000/svg}path'))
-    body = f'<path d="M12 12H732V272L712 292H12Z" fill="{panel}" stroke="{border}"/>'
+    body = f'<path d="M12 12H732V240L712 260H12Z" fill="{panel}" stroke="{border}"/>'
     body += text(32, 44, 'MY SETUP', 15, accent, 700)
     body += f'<path d="M32 62H712" stroke="{border}"/>'
     body += f'<rect x="32" y="76" width="680" height="170" rx="3" fill="{inset}"/>'
     body += (f'<svg x="32" y="76" width="680" height="170" viewBox="0 0 25080 6270">'
              f'<g fill="{ink}" stroke="{ink}" stroke-width="8">{paths}</g></svg>')
-    return document(body, 744, 304, 'My setup: laptop, phone, mouse and earbuds')
+    return document(body, 744, 272, 'My setup: laptop, phone, mouse and earbuds')
 
 
 def coffee_icon(theme):
