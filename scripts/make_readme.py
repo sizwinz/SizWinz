@@ -97,6 +97,10 @@ I want to achieve ambitious goals for the products I am involved with, but I als
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/setup-dark.svg" /><img src="./assets/setup-light.svg" width="744" height="304" alt="My setup: laptop, phone, mouse and earbuds" /></picture>
 
+<p align="center">
+  <a href="https://discord.com/users/775329619259162654" title="Live Discord presence"><picture><source media="(prefers-color-scheme: dark)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=dark&amp;bg=191c1e&amp;borderRadius=0px&amp;showDisplayName=true&amp;idleMessage=Hey%2C+wsp%21+I%27m+Sahaj+AKA+SizWinz.+If+I%27m+doing+something%2C+then+you+will+get+to+see+it+here." /><img src="https://discord-rp-for-github.vercel.app/api/775329619259162654?theme=light&amp;bg=f3f2ef&amp;borderRadius=0px&amp;showDisplayName=true&amp;idleMessage=Hey%2C+wsp%21+I%27m+Sahaj+AKA+SizWinz.+If+I%27m+doing+something%2C+then+you+will+get+to+see+it+here." width="410" alt="Sahaj’s live Discord presence and current activity" /></picture></a>
+</p>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-grid-dark.svg" /><img src="./assets/tech-stack-grid-light.svg" width="744" height="578" alt="Tech Stack Ever Used: languages, frameworks and UI, AI and ML, databases, tools and platforms, utilities" /></picture>
 
 **Quotes I live by**

@@ -92,8 +92,6 @@ def setup_panel(theme):
     body += f'<rect x="32" y="76" width="680" height="170" rx="3" fill="{inset}"/>'
     body += (f'<svg x="32" y="76" width="680" height="170" viewBox="0 0 25080 6270">'
              f'<g fill="{ink}" stroke="{ink}" stroke-width="8">{paths}</g></svg>')
-    for x, label in ((192, 'Laptop'), (366, 'Phone'), (479, 'Mouse'), (610, 'Earbuds')):
-        body += text(x, 270, label, 12, muted, 600, 'middle')
     return document(body, 744, 304, 'My setup: laptop, phone, mouse and earbuds')
 
 
