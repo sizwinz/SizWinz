@@ -23,4 +23,4 @@ No remaining implementation tasks. For profile copy edits, update both README.md
 ## Native Discord renderer update
 - Service source: D:/Projects/Contributions/lanyard-profile-readme; GitHub sizwinz/lanyard-profile-readme. Native layout deployed and dark/light production endpoints checked.
 - Activity artwork uses Discord media proxy to preserve encoded external paths; real Arrival poster and Minecraft artwork verified locally.
-- Profile tests: all 12 pass before publishing the new URL. Hosted graphics validation and final profile check pending.
+- Profile tests: all 12 pass before publishing the new URL. Hosted graphics validation passed on d897862 (run 40496670617). Final GitHub rendering checked with real Arrival poster, decoration, server tag, and progress; both setup and Discord cards centered in their section.

@@ -100,7 +100,9 @@ I want to achieve ambitious goals for the products I am involved with, but I als
 <details>
 <summary>Setup & current activity</summary>
 
+<p align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/setup-dark.svg" /><img src="./assets/setup-light.svg" width="744" height="272" alt="My setup: laptop, phone, mouse and earbuds" /></picture>
+</p>
 
 <p align="center">
   <a href="https://discord.com/users/775329619259162654" title="Live Discord presence"><picture><source media="(prefers-color-scheme: dark)" srcset="https://discord-rp-for-github.vercel.app/api/775329619259162654?layout=readme&amp;theme=dark&amp;showDisplayName=true&amp;idleMessage=Hey%2C+wsp%21+I%27m+Sahaj+AKA+SizWinz.+If+I%27m+doing+something%2C+then+you+will+get+to+see+it+here." /><img src="https://discord-rp-for-github.vercel.app/api/775329619259162654?layout=readme&amp;theme=light&amp;showDisplayName=true&amp;idleMessage=Hey%2C+wsp%21+I%27m+Sahaj+AKA+SizWinz.+If+I%27m+doing+something%2C+then+you+will+get+to+see+it+here." width="744" alt="Sahaj’s live Discord presence and current activity" /></picture></a>
