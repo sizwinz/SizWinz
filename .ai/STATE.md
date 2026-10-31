@@ -24,3 +24,10 @@ No remaining implementation tasks. For profile copy edits, update both README.md
 - Service source: D:/Projects/Contributions/lanyard-profile-readme; GitHub sizwinz/lanyard-profile-readme. Native layout deployed and dark/light production endpoints checked.
 - Activity artwork uses Discord media proxy to preserve encoded external paths; real Arrival poster and Minecraft artwork verified locally.
 - Profile tests: all 12 pass before publishing the new URL. Hosted graphics validation passed on d897862 (run 40496670617). Final GitHub rendering checked with real Arrival poster, decoration, server tag, and progress; both setup and Discord cards centered in their section.
+
+## DS Labs footer logo
+- Replaced the DS text placeholder with the supplied D:/Pictures/Logos/dslabs.svg monogram in both themed footer cards.
+- Stored the two complete silhouette paths in source/dslabs.svg, omitting repeated grayscale trace layers and editor transforms; cropped viewBox and 26px icon match the neighboring buttons.
+- Regression test was observed failing before implementation; all 13 tests now pass. README regeneration and diff whitespace checks pass.
+- Browser visual inspection was blocked because file URLs are not allowed. Rendered visual review remains unverified.
+- Changes are local and uncommitted. Next action: review the generated link-dslabs-dark.svg and link-dslabs-light.svg, then publish when authorized.
