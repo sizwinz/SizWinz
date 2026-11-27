@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:11:26+00:00",
+  "updated_at": "2026-11-27T15:22:19+00:00",
   "user": "sizwinz",
   "repositories": {
     "sizwinz/StudySage-Offline-Online-AI-Note-Assistant": 12,
@@ -42,7 +42,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 1942051,
+      "bytes": 2130266,
       "color": "#3178c6"
     },
     {
@@ -51,14 +51,14 @@
       "color": "#3572A5"
     },
     {
+      "name": "Rust",
+      "bytes": 864966,
+      "color": "#dea584"
+    },
+    {
       "name": "Dart",
       "bytes": 525513,
       "color": "#00B4AB"
-    },
-    {
-      "name": "Rust",
-      "bytes": 447127,
-      "color": "#dea584"
     },
     {
       "name": "C#",
@@ -77,7 +77,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 64580,
+      "bytes": 64845,
       "color": "#663399"
     },
     {
@@ -139,12 +139,12 @@
   "contributions": {
     "startedAt": "2025-11-23T00:00:00Z",
     "endedAt": "2026-11-27T23:59:59Z",
-    "totalCommitContributions": 1926,
+    "totalCommitContributions": 1933,
     "totalPullRequestContributions": 89,
     "totalIssueContributions": 5,
     "totalRepositoriesWithContributedCommits": 39,
     "contributionCalendar": {
-      "totalContributions": 2934,
+      "totalContributions": 2951,
       "weeks": [
         {
           "contributionDays": [
@@ -1694,11 +1694,11 @@
             },
             {
               "date": "2026-10-27",
-              "contributionCount": 52
+              "contributionCount": 53
             },
             {
               "date": "2026-10-28",
-              "contributionCount": 14
+              "contributionCount": 18
             },
             {
               "date": "2026-10-29",
@@ -1830,11 +1830,11 @@
             },
             {
               "date": "2026-11-26",
-              "contributionCount": 9
+              "contributionCount": 10
             },
             {
               "date": "2026-11-27",
-              "contributionCount": 0
+              "contributionCount": 11
             }
           ]
         }
